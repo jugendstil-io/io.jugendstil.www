@@ -1,0 +1,28 @@
+@import "../../../styles/colors";
+
+.top-navigation {
+  background-color: white;
+  border-bottom: 1px solid $gainsboro;
+  margin: 0 auto;
+  padding: 1.45rem 1.0875rem;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline;
+
+      a {
+        color: $black;
+        font-size: 0.875rem;
+        padding: 1.45rem 1.0875rem;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+          border-bottom: 0.2rem solid;
+        }
+      }
+    }
+  }
+}

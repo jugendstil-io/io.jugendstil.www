@@ -1,0 +1,69 @@
+@import "../styles/colors";
+
+.card {
+  border-bottom-color: $gainsboro;
+  border-bottom-width: 1px;
+  border-left-color: $gainsboro;
+  border-left-width: 1px;
+  border-right-color: $gainsboro;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-color: $violet;
+  border-top-width: 2px;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+
+  .card-description {
+    color: $darkgray;
+    font-size: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .card-header {
+    height: 5.5rem;
+    margin-bottom: 0.65rem;
+    position: relative;
+
+    .card-title {
+      font-size: 1.3625rem;
+      line-height: 1.4em;
+      padding-right: 3.45rem;
+    }
+
+    .card-arrow {
+      background-color: $gainsboro;
+      height: 45px;
+      margin-right: -36px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 86px;
+
+      &:after {
+        border-right: .69rem solid transparent;
+        border-top: .5rem solid;
+        bottom: -.5rem;
+        content: "";
+        margin-left: 4.67rem;
+        position: absolute;
+      }
+
+      a {
+        display: block;
+        height: 45px;
+        text-align: center;
+        text-decoration: none;
+        width: 86px;
+
+        &:after {
+          content: "\21E2";
+          font-size: 2.5rem;
+          left: 1.5rem;
+          position: absolute;
+          top: 0.3rem;
+        }
+      }
+    }
+  }
+}

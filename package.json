@@ -1,0 +1,43 @@
+{
+  "name": "io.jugendstil.www",
+  "private": true,
+  "description": "Jugendstil helps businesses master the digital reinvention of the industry when they use advanced digital technologies to transform core operations and unlock new revenue streams and business models. We support every aspect of our clients' multi-phase transformation, including workforce, customer experience, Research and development, engineering, manufacturing, business support, and ecosystems.",
+  "version": "0.1.0",
+  "author": "Mathias Schilling <mschilling@jugendstil.io>",
+  "dependencies": {
+    "gatsby": "^2.17.6",
+    "gatsby-image": "^2.2.30",
+    "gatsby-plugin-manifest": "^2.2.25",
+    "gatsby-plugin-offline": "^3.0.17",
+    "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-plugin-sass": "^2.1.20",
+    "gatsby-plugin-sharp": "^2.2.34",
+    "gatsby-source-filesystem": "^2.1.35",
+    "gatsby-transformer-sharp": "^2.3.1",
+    "node-sass": "^4.13.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "simple-icons": "^1.19.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jugendstil-io/io.jugendstil.www"
+  },
+  "bugs": {
+    "url": "https://github.com/jugendstil-io/io.jugendstil.www/issues"
+  }
+}

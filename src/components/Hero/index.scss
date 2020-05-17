@@ -1,0 +1,21 @@
+.hero-content {
+  margin-top: 5rem;
+
+  h1.title {
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.185rem;
+  }
+
+  p {
+    font-family: "Graphik Medium";
+    font-size: 1.15rem;
+    margin-bottom: 2.5rem;
+    width: 85%;
+  }
+}
+
+.hero-image {
+  margin: -11.5rem -20rem;
+  position: relative;
+  z-index: -99;
+}

@@ -1,0 +1,73 @@
+@import "../../styles/colors";
+
+footer {
+  color: $darkgray;
+  background-color: $black;
+  padding-bottom: 2.25rem;
+
+  div.wrapper {
+    margin: 4rem auto 0 auto;
+    max-width: 960px;
+    padding: 1.45rem 1.0875rem 2.45rem;
+  }
+
+  ul.location-list {
+    display: flex;
+    padding-top: 1rem;
+
+    li {
+      font-size: smaller;
+      padding-bottom: 0.25rem;
+      padding-right: 1.2rem;
+      padding-top: 0.3rem;
+
+      &:last-of-type {
+        margin-left: auto;
+        padding-right: 0;
+      }
+    }
+  }
+
+  nav.footer-navigation {
+    padding-top: 3rem;
+
+    ul {
+      display: flex;
+
+      li {
+        padding-bottom: 0.25rem;
+        padding-right: 1.2rem;
+        padding-top: 0.3rem;
+
+        &:last-of-type {
+          margin-left: auto;
+          padding-right: 0;
+        }
+
+        svg {
+          fill: $darkgray;
+        }
+
+        a {
+          display: inline-block;
+          color: inherit;
+          text-decoration: none;
+
+          &:hover {
+            color: $gainsboro;
+
+            svg {
+              fill: $gainsboro;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  hr {
+    border-color: $darkgray;
+    border-width: 0.025rem;
+  }
+}
+

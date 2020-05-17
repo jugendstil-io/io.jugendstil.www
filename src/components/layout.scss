@@ -1,0 +1,53 @@
+@import "../styles/colors";
+@import "../styles/grid.css";
+@import "../styles/reset";
+@import "../styles/typography";
+
+body {
+  font-family: $fontRegular;
+}
+
+a {
+  font-family: $fontMedium;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $black;
+  display: block;
+  font-family: $fontBlack;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 1.5625rem;
+  line-height: 1.2rem;
+  margin-bottom: 1.83rem;
+  margin-top: 0.83rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1.6rem;
+  line-height: 1.6em;
+}
+
+section {
+  margin-bottom: 6rem;
+
+  &.grey {
+    background-color: #f2f2f2;
+    margin-top: -1.5rem;
+    padding: 3rem 6rem 2rem 3rem;
+    position: relative;
+    z-index: -100;
+  }
+
+  .section-title {
+    font-size: 3rem;
+    line-height: 2.7rem;
+  }
+}

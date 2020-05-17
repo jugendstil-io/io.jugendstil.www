@@ -1,0 +1,14 @@
+@import "../../styles/colors";
+
+a.btn {
+  font-family: "Graphik Medium";
+  font-size: .875rem;
+  padding: .938rem 4.938rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  .label {
+    color: white;
+  }
+}
