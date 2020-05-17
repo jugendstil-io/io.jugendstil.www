@@ -4,6 +4,7 @@ import Hero from "../components/Hero"
 import Layout from "../components/layout"
 import Metadata from "../components/metadata"
 import services from "../services.json"
+import pkg from "../../package.json"
 
 import "./index.scss"
 
@@ -25,8 +26,11 @@ const card = service => (
 
 const IndexPage = () => (
   <Layout>
-    <Metadata title="Jugendstil - Create Business Impact" />
-    <Hero />
+    <Metadata
+      title="Jugendstil - Create Business Impact"
+      description={pkg.description}
+    />
+    <Hero/>
     <section className="grey">
       <div className="row">
         <div className="col-md-12">
