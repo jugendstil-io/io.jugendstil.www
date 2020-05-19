@@ -1,0 +1,35 @@
+[
+  {
+    "address": {
+      "city": "London",
+      "country": "GB",
+      "line01": "20-22 Wenlock Road",
+      "zipCode": "N1 7GU"
+    },
+    "hq": true,
+    "email": "hello@jugendstil.io",
+    "telephone": "+44 20 3818 5838"
+  },
+  {
+    "address": {
+      "city": "Barcelona",
+      "country": "ES",
+      "line01": "Carrer de Nàpols, 287",
+      "zipCode": "08025"
+    },
+    "hq": false,
+    "email": "hola@jugendstil.io",
+    "telephone": "+44 20 3818 5838"
+  },
+  {
+    "address": {
+      "city": "Berlin",
+      "country": "DE",
+      "line01": "Friedrichstrasse 185-190",
+      "zipCode": "10117"
+    },
+    "hq": false,
+    "email": "hallo@jugendstil.io",
+    "telephone": "+44 20 3818 5838"
+  }
+]

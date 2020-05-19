@@ -12,13 +12,15 @@ const card = service => (
   <div className="col-lg-4">
     <div className="box-row">
       <div className="card">
-        <div className="card-header">
-          <h3 className="card-title">{service.title}</h3>
-          <div className="card-arrow">
-            <a href="#"></a>
+        <div className="card-content">
+          <div className="card-header">
+            <h3 className="card-title">{service.title}</h3>
+            <div className="card-arrow">
+              <a href="#"></a>
+            </div>
           </div>
+          <p className="card-description">{service.teaser}</p>
         </div>
-        <p className="card-description">{service.teaser}</p>
       </div>
     </div>
   </div>
@@ -26,11 +28,8 @@ const card = service => (
 
 const IndexPage = () => (
   <Layout>
-    <Metadata
-      title="Jugendstil - Create Business Impact"
-      description={pkg.description}
-    />
-    <Hero/>
+    <Metadata title="Create Business Impact" description={pkg.description} />
+    <Hero />
     <section className="grey">
       <div className="row">
         <div className="col-md-12">

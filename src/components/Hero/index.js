@@ -15,7 +15,7 @@ const Hero = () => (
               We empower organisations to create business impact and seamless
               digital experiences through technology.
             </p>
-            <Button.Primary label="Contact" url="#" />
+            <Button.Primary label="Contact" url="/contact/" />
           </div>
         </div>
       </div>

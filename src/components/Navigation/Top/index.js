@@ -21,7 +21,7 @@ const TopNavigation = () => (
         <a href="#">About Us</a>
       </li>
       <li>
-        <a href="#">Contact</a>
+        <a href="/contact/">Contact</a>
       </li>
       <li>
         <a href="#">Join us</a>
