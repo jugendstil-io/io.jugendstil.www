@@ -31,6 +31,14 @@ const icon = ({
   )
 }
 
+export const GitHub = ({ height, fill = Source.hex, width }) =>
+  icon({
+    height,
+    fill,
+    width,
+    src: Source.get("GitHub"),
+  })
+
 export const LinkedIn = ({ height, fill = Source.hex, width }) =>
   icon({
     height,

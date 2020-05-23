@@ -1,5 +1,7 @@
 import React from "react"
-import { LinkedIn, Twitter } from "../../icons/index"
+import { GitHub, LinkedIn, Twitter } from "../../icons/index"
+import URL from "../../url"
+import contact from "../../contact.json"
 
 import "./index.scss"
 
@@ -23,7 +25,7 @@ const Footer = () => (
             <a href="#">About Us</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href={URL.CONTACT}>Contact</a>
           </li>
           <li>
             <a href="#">Join us</a>
@@ -31,12 +33,18 @@ const Footer = () => (
           <li>
             <a
               target="_blank"
-              href="https://www.linkedin.com/company/jugendstil-io/"
+              href={contact.find(it => it.hq === true).linkedin}
             >
               <LinkedIn height={style.iconHeight} width={style.iconWidth} />
             </a>
-            <a target="_blank" href="https://twitter.com/jugendstil_io/">
+            <a
+              target="_blank"
+              href={contact.find(it => it.hq === true).twitter}
+            >
               <Twitter height={style.iconHeight} width={style.iconWidth} />
+            </a>
+            <a target="_blank" href={contact.find(it => it.hq === true).github}>
+              <GitHub height={style.iconHeight} width={style.iconWidth} />
             </a>
           </li>
         </ul>

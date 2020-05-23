@@ -2,13 +2,14 @@ import React from "react"
 
 import "./index.scss"
 import logo from "../../../../asset/jugendstil_io_logo_small.png"
+import URL from "../../../url"
 
 const TopNavigation = () => (
   <nav className="top-navigation">
     <ul>
       <li>
         <a href="/">
-          <img src={logo} width={140}/>
+          <img src={logo} width={140} />
         </a>
       </li>
       <li>
@@ -21,7 +22,7 @@ const TopNavigation = () => (
         <a href="#">About Us</a>
       </li>
       <li>
-        <a href="/contact/">Contact</a>
+        <a href={URL.CONTACT}>Contact</a>
       </li>
       <li>
         <a href="#">Join us</a>

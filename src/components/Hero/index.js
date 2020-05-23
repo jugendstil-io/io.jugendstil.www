@@ -1,6 +1,7 @@
 import React from "react"
 import Image from "../image"
 import Button from "../Button"
+import URL from "../../url"
 
 import "./index.scss"
 
@@ -15,7 +16,7 @@ const Hero = () => (
               We empower organisations to create business impact and seamless
               digital experiences through technology.
             </p>
-            <Button.Primary label="Contact" url="/contact/" />
+            <Button.Primary label="Contact" url={URL.CONTACT} />
           </div>
         </div>
       </div>
