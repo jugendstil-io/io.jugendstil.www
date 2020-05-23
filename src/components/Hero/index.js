@@ -1,7 +1,7 @@
 import React from "react"
-import Image from "../image"
 import Button from "../Button"
 import URL from "../../url"
+import circle from "../../images/circle.png"
 
 import "./index.scss"
 
@@ -23,9 +23,12 @@ const Hero = () => (
     </div>
 
     <div className="col-md-4">
-      <div className="hero-image">
-        <Image />
-      </div>
+      <div
+        className="hero-image"
+        style={{
+          backgroundImage: `url(${circle})`,
+        }}
+      />
     </div>
   </div>
 )

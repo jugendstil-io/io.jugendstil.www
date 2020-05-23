@@ -15,7 +15,11 @@
 }
 
 .hero-image {
-  margin: -11.5rem -20rem;
+  background-position: center center;
+  background-size: cover;
+  height: 750px;
+  margin: -11.5rem -11rem;
   position: relative;
+  width: 750px;
   z-index: -99;
 }
