@@ -6,6 +6,8 @@ import contact from "../contact.json"
 
 import "./index.scss"
 
+const telephone = contact.find(it => it.hq === true).telephone
+
 const card = contact => (
   <div className="col-lg-4" key={contact.email}>
     <div className="box-row">
@@ -42,7 +44,8 @@ const Contact = () => (
           <p>Get in touch or drop by, we're always open for a chat.</p>
           <p>
             {contact.find(it => it.hq === true).email}
-            <br /> {contact.find(it => it.hq === true).telephone}
+            <br />
+            <a href={`tel:${telephone.replace(/ /g,'')}`}>{telephone}</a>
           </p>
         </div>
       </div>
