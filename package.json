@@ -1,7 +1,7 @@
 {
   "name": "io.jugendstil.www",
   "private": true,
-  "description": "Jugendstil helps businesses master the digital reinvention of the industry when they use advanced digital technologies to transform core operations and unlock new revenue streams and business models. We support every aspect of our clients' multi-phase transformation, including workforce, customer experience, Research and development, engineering, manufacturing, business support, and ecosystems.",
+  "description": "Jugendstil_IO helps businesses master the digital reinvention of the industry when they use advanced digital technologies to transform core operations and unlock new revenue streams and business models. We support every aspect of our clients' multi-phase transformation, including workforce, customer experience, Research and development, engineering, manufacturing, business support, and ecosystems.",
   "version": "0.1.0",
   "author": "Mathias Schilling <mschilling@jugendstil.io>",
   "dependencies": {

@@ -1,14 +1,14 @@
-import colors from "../../../styles/colors"
 import React from "react"
 
 import "./index.scss"
+import logo from "../../../../asset/jugendstil_io_logo_small.png"
 
 const TopNavigation = () => (
   <nav className="top-navigation">
     <ul>
       <li>
         <a href="/">
-          JUGENDSTIL.<span style={{ color: colors.violet }}>IO</span>
+          <img src={logo} width={140}/>
         </a>
       </li>
       <li>

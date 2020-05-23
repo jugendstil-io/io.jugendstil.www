@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Jugendstil`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Jugendstil_IO`,
+    description: `Jugendstil_IO helps businesses master the digital reinvention of the industry when they use advanced digital technologies to transform core operations and unlock new revenue streams and business models. We support every aspect of our clients' multi-phase transformation, including workforce, customer experience, Research and development, engineering, manufacturing, business support, and ecosystems.`,
+    author: `@jugendstil_io`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,13 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Jugendstil_IO`,
+        short_name: `J_`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `asset/jugendstil_io_icon_colored.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
