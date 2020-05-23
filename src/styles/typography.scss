@@ -1,20 +1,38 @@
 @font-face {
-  font-family: "Graphik Black";
-  src: url("../fonts/graphik/Graphik-Black.woff");
+  font-family: 'J_ Black';
+  src: url('../fonts/j_/J_black.eot');
+
+  /* IE9 Compat Modes */
+  src: url('../fonts/j_/J_black.eot?#iefix') format("embedded-opentype"),
+  url('../fonts/j_/J_black.woff2') format("woff2"),
+  url('../fonts/j_/J_black.woff') format("woff"),
+  url('../fonts/j_/J_black.ttf') format("truetype");
 }
 
-$fontBlack: "Graphik Black", "Arial Black", "Sans-Serif";
+$fontBlack: "J_ Black", "Arial Black", "Sans-Serif";
 
 @font-face {
-  font-family: "Graphik Medium";
-  src: url("../fonts/graphik/Graphik-Medium.woff");
+  font-family: 'J_ Medium';
+  src: url('../fonts/j_/J_medium.eot');
+
+  /* IE9 Compat Modes */
+  src: url('../fonts/j_/J_medium.eot?#iefix') format("embedded-opentype"),
+  url('../fonts/j_/J_medium.woff') format("woff"),
+  url('../fonts/j_/J_medium.ttf') format("truetype"),
+  url('../fonts/j_/J_medium.svg#svgFontName') format("svg");
 }
 
-$fontMedium: "Graphik Medium", "Arial Black", "Sans-Serif";
+$fontMedium: "J_ Medium", "Arial Black", "Sans-Serif";
 
 @font-face {
-  font-family: "Graphik Regular";
-  src: url("../fonts/graphik/Graphik-Regular.woff");
+  font-family: 'J_ Regular';
+  src: url('../fonts/j_/J_regular.eot');
+
+  /* IE9 Compat Modes */
+  src: url('../fonts/j_/J_regular.eot?#iefix') format("embedded-opentype"),
+  url('../fonts/j_/J_regular.woff') format("woff"),
+  url('../fonts/j_/J_regular.ttf') format("truetype"),
+  url('../fonts/j_/J_regular.svg#svgFontName') format("svg");
 }
 
-$fontRegular: "Graphik Regular", "Arial", "Sans-Serif"
+$fontRegular: "J_ Regular", "Arial", "Sans-Serif"
