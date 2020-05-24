@@ -45,7 +45,7 @@ const Contact = () => (
           <p>
             {contact.find(it => it.hq === true).email}
             <br />
-            <a href={`tel:${telephone.replace(/ /g,'')}`}>{telephone}</a>
+            <a href={`tel:${telephone.replace(/ /g, "")}`}>{telephone}</a>
           </p>
         </div>
       </div>

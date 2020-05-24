@@ -1,28 +1,32 @@
 @import "../../../styles/colors";
+@import "../../../styles/display";
 
 .top-navigation {
   background-color: white;
   border-bottom: 1px solid $gainsboro;
-  margin: 0 auto;
-  padding: 1.45rem 1.0875rem;
+  display: flex;
+  position: relative;
 
-  ul {
+  ul.menu-link-list {
     list-style: none;
 
-    li {
+    li.menu-link-item {
       display: inline;
 
       a {
-        color: $black;
-        font-size: 0.875rem;
-        padding: 1.45rem 1.0875rem;
-        text-decoration: none;
-        text-transform: uppercase;
-
         &:hover {
           border-bottom: 0.2rem solid;
         }
       }
     }
+  }
+
+  li.menu-link-item a, .logo {
+    display: inline-block;
+    color: $black;
+    font-size: 0.875rem;
+    padding: 1.45rem 1.0875rem;
+    text-decoration: none;
+    text-transform: uppercase;
   }
 }
