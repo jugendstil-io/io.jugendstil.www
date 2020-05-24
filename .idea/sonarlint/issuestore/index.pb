@@ -31,3 +31,33 @@ L
 src/components/Hero/index.js,f/3/f3990e2d2a0d02aa277665922855e05566d66c7b
 K
 public/manifest.webmanifest,d/2/d2b67c194258d8c7654ecb9984d2e86f222e24d1
+?
+public/404.html,9/1/9165de4c08ed7f75a6e91e356e892f20aa817eb8
+G
+src/components/image.js,9/2/92b97d14cdd18166b6e843bc4a2fe3f8b9aa7a16
+J
+src/components/layout.scss,2/7/27e5610c847e489096d2c627282e070e001e38de
+J
+src/styles/typography.scss,0/5/0500bcee3b4aa2f551308c5780b3bb275d8cb069
+P
+ src/components/Button/index.scss,5/1/51e1ca3a7a67b7b413ab456d117b169d3e642444
+@
+src/pages/404.js,e/3/e3bdb0ff8a0893b3bf58690bacf4ab5a7f780aff
+P
+ src/components/Footer/index.scss,4/8/48dbbe20176be71fc571f04c17d110f137c41677
+C
+src/styles/grid.css,8/0/80fa536b2dc71520fbc0f61e1673731365951dd3
+_
+/src/components/Navigation/BurgerMenu/index.scss,3/a/3aece54ff9857dae5e3bd9e80b444b17b169b785
+X
+(src/components/Navigation/Top/index.scss,d/b/dbe9006a90077edae98bbe5c9bb8768daae536e2
+F
+src/styles/colors.scss,f/f/fff11531d06eec54ec8e40d70d281d74b6e6c52e
+]
+-src/components/Navigation/BurgerMenu/index.js,3/8/38116241d0fcf4f65e62d7509091dc3e299ca2e4
+G
+src/styles/display.scss,8/7/87c373a68a77a419c07bdbafe7903434decbb161
+N
+src/components/Footer/index.js,0/4/046d57f5d0e29b384a7a9e7fc6409d5b3b207982
+N
+src/components/Hero/index.scss,4/f/4f91ee424980abecfbc682896595e9bea7c5a5ed

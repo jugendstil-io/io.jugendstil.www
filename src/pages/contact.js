@@ -9,12 +9,15 @@ import "./index.scss"
 const telephone = contact.find(it => it.hq === true).telephone
 
 const card = contact => (
-  <div className="col-lg-4" key={contact.email}>
+  <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4" key={contact.email}>
     <div className="box-row">
       <div className="card">
         <div className="card-content">
           <div className="card-header">
             <h3 className="card-title">{contact.address.city}</h3>
+            <div className="card-arrow">
+              <a href="#"></a>
+            </div>
           </div>
           <p className="card-description">
             <span className="">{contact.email}</span>
@@ -37,7 +40,7 @@ const Contact = () => (
       title="Contact"
       description="Get in touch or drop by, we're always open for a chat."
     />
-    <section className="grey" style={{ margin: `5rem auto` }}>
+    <section className="grey">
       <div className="row">
         <div className="col-md-12">
           <h2>Contact</h2>

@@ -9,7 +9,7 @@ import pkg from "../../package.json"
 import "./index.scss"
 
 const card = service => (
-  <div className="col-lg-4">
+  <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
     <div className="box-row">
       <div className="card">
         <div className="card-content">

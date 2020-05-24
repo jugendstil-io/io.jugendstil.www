@@ -14,40 +14,45 @@ const Footer = () => (
   <footer>
     <div className="wrapper">
       <nav className="footer-navigation">
-        <ul>
-          <li>
-            <a href="#">Service</a>
-          </li>
-          <li>
-            <a href="#">Industries</a>
-          </li>
-          <li>
-            <a href="#">About Us</a>
-          </li>
-          <li>
-            <a href={URL.CONTACT}>Contact</a>
-          </li>
-          <li>
-            <a href="#">Join us</a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href={contact.find(it => it.hq === true).linkedin}
-            >
-              <LinkedIn height={style.iconHeight} width={style.iconWidth} />
-            </a>
-            <a
-              target="_blank"
-              href={contact.find(it => it.hq === true).twitter}
-            >
-              <Twitter height={style.iconHeight} width={style.iconWidth} />
-            </a>
-            <a target="_blank" href={contact.find(it => it.hq === true).github}>
-              <GitHub height={style.iconHeight} width={style.iconWidth} />
-            </a>
-          </li>
-        </ul>
+        <span className="visible-sm visible-md visible-lg">
+          <ul>
+            <li>
+              <a href="#">Service</a>
+            </li>
+            <li>
+              <a href="#">Industries</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href={URL.CONTACT}>Contact</a>
+            </li>
+            <li>
+              <a href="#">Join us</a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href={contact.find(it => it.hq === true).linkedin}
+              >
+                <LinkedIn height={style.iconHeight} width={style.iconWidth} />
+              </a>
+              <a
+                target="_blank"
+                href={contact.find(it => it.hq === true).twitter}
+              >
+                <Twitter height={style.iconHeight} width={style.iconWidth} />
+              </a>
+              <a
+                target="_blank"
+                href={contact.find(it => it.hq === true).github}
+              >
+                <GitHub height={style.iconHeight} width={style.iconWidth} />
+              </a>
+            </li>
+          </ul>
+        </span>
       </nav>
       <hr />
       <ul className="location-list">

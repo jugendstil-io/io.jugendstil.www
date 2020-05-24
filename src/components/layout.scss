@@ -36,18 +36,43 @@ p {
 }
 
 section {
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
+
+  @media (max-width: 768px) {
+    margin: 1rem 1rem 3rem 2rem;
+  }
 
   &.grey {
     background-color: #f2f2f2;
-    margin-top: -1.5rem;
-    padding: 3rem 6rem 2rem 3rem;
     position: relative;
     z-index: -100;
+    padding: 3rem 6rem 2rem 3rem;
+
+    @media (max-width: 768px) {
+      margin: 0;
+      padding: 3rem 2rem 2rem;
+    }
   }
 
   .section-title {
     font-size: 3rem;
     line-height: 2.7rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.8rem;
+      line-height: 2.7rem;
+    }
+  }
+}
+
+main {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0px 1.0875rem 1.45rem;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    padding: 0;
   }
 }
