@@ -35,7 +35,7 @@ const IndexPage = () => (
         <div className="col-md-12">
           <h2>About us</h2>
           <p>
-            Jugendstil helps businesses master the digital reinvention of the
+            Jugendstil_IO helps businesses master the digital reinvention of the
             industry when they use advanced digital technologies to transform
             core operations and unlock new revenue streams and business models.
             We support every aspect of our clients' multi-phase transformation,

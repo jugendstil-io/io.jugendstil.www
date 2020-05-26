@@ -61,3 +61,7 @@ N
 src/components/Footer/index.js,0/4/046d57f5d0e29b384a7a9e7fc6409d5b3b207982
 N
 src/components/Hero/index.scss,4/f/4f91ee424980abecfbc682896595e9bea7c5a5ed
+H
+src/components/layout.js,2/a/2a0d7b3d9bc08b1aca1670d3640c4f2263da08ea
+D
+src/styles/colors.js,7/8/78d1ad7463545432c7f9b93de9cda90bb76f4acb
