@@ -65,3 +65,5 @@ H
 src/components/layout.js,2/a/2a0d7b3d9bc08b1aca1670d3640c4f2263da08ea
 D
 src/styles/colors.js,7/8/78d1ad7463545432c7f9b93de9cda90bb76f4acb
+A
+gatsby-browser.js,c/8/c8df22cf90adfac9a95adc94b85984d3a6b193cd
