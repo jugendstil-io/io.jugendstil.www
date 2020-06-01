@@ -28,8 +28,11 @@ module.exports = {
         icon: `asset/jugendstil_io_icon_colored.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-114682443-1",
+      },
+    },
   ],
 }
