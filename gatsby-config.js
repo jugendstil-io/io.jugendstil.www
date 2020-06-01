@@ -34,5 +34,15 @@ module.exports = {
         trackingId: "UA-114682443-1",
       },
     },
+    {
+      resolve: `gatsby-plugin-linkedin-insight`,
+      options: {
+        partnerId: `2266801`,
+
+        // Include LinkedIn Insight in development.
+        // Defaults to false meaning LinkedIn Insight will only be loaded in production.
+        includeInDevelopment: false
+      }
+    }
   ],
 }
