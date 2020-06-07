@@ -65,5 +65,9 @@ H
 src/components/layout.js,2/a/2a0d7b3d9bc08b1aca1670d3640c4f2263da08ea
 D
 src/styles/colors.js,7/8/78d1ad7463545432c7f9b93de9cda90bb76f4acb
-A
-gatsby-browser.js,c/8/c8df22cf90adfac9a95adc94b85984d3a6b193cd
+N
+src/components/Button/index.js,1/4/14f023b3274b44097f7fdf7997679e6969db9f7a
+K
+src/styles/third_party.scss,f/c/fcce7c39116af61d6ca9bb16eda0b38d82d0594e
+E
+src/styles/reset.scss,5/c/5c761ddc260ca7015fb55bc9df3b34005da9e3ff

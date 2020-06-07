@@ -21,6 +21,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 3.5rem;
   line-height: 1em;
+  margin-bottom: 1.83rem;
+  margin-top: 1.83rem;
 }
 
 h2 {
@@ -75,5 +77,59 @@ main {
   @media (max-width: 768px) {
     margin: 0 auto;
     padding: 0;
+  }
+
+  strong {
+    font-family: $fontMedium;
+  }
+
+  table {
+    background-color: transparent;
+    margin-top: 0.6rem;
+    margin-bottom: 1.8rem;
+    width: 100%;
+
+    tr {
+      border-bottom: 1px solid $gainsboro;
+    }
+
+    td, th {
+      font-size: 92%;
+      line-height: 1.6em;
+      padding-bottom: 0.9rem;
+      padding-top: 0.45rem;
+      text-align: left;
+    }
+
+    th[scope="row"] {
+      font-family: $fontMedium;
+      padding-right: 2.5rem;
+      text-transform: uppercase;
+    }
+
+    td {
+      padding-right: 0.3rem;
+    }
+  }
+
+  ul, ol {
+    list-style-position: outside;
+    margin-block-end: 1.4rem;
+    margin-block-start: 0.5rem;
+    padding-inline-start: 2rem;
+
+    li {
+      font-size: 98%;
+      line-height: 1.4em;
+      margin-bottom: 0.2rem;
+    }
+  }
+
+  ol {
+    list-style-type: decimal;
+
+    &.alpha {
+      list-style-type: lower-alpha;
+    }
   }
 }

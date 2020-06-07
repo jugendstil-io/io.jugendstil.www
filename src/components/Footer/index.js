@@ -1,5 +1,5 @@
 import React from "react"
-import { GitHub, LinkedIn, Twitter } from "../../icons/index"
+import { GitHub, Instagram, LinkedIn, Twitter } from "../../icons/index"
 import URL from "../../url"
 import contact from "../../contact.json"
 
@@ -50,17 +50,26 @@ const Footer = () => (
               >
                 <GitHub height={style.iconHeight} width={style.iconWidth} />
               </a>
+              <a
+                target="_blank"
+                href={contact.find(it => it.hq === true).instagram}
+              >
+                <Instagram height={style.iconHeight} width={style.iconWidth} />
+              </a>
             </li>
           </ul>
         </span>
       </nav>
       <hr />
-      <ul className="location-list">
-        <li>Barcelona</li>
-        <li>Berlin</li>
-        <li>London</li>
+      <ul className="footer-legal">
+        <li>
+          <a href={URL.PRIVACY_STATEMENT}>Privacy Statement</a>
+        </li>
+        <li>
+          <a href={URL.MODERN_SLAVERY_STATEMENT}>Modern Slavery Statement</a>
+        </li>
         <li className="right">
-          © {new Date().getFullYear()} Jugendstil. All Rights Reserved.
+          © {new Date().getFullYear()} Jugendstil_IO. All Rights Reserved.
         </li>
       </ul>
     </div>

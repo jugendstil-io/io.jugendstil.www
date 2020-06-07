@@ -11,7 +11,7 @@ footer {
     padding: 1.45rem 1.0875rem 2.45rem;
   }
 
-  ul.location-list {
+  ul.footer-legal {
     display: flex;
     padding-top: 1rem;
 
@@ -24,6 +24,20 @@ footer {
       &:last-of-type {
         margin-left: auto;
         padding-right: 0;
+      }
+
+      a {
+        display: inline-block;
+        color: inherit;
+        text-decoration: none;
+
+        &:hover {
+          color: $gainsboro;
+
+          svg {
+            fill: $gainsboro;
+          }
+        }
       }
     }
   }

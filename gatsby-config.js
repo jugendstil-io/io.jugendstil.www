@@ -41,13 +41,13 @@ module.exports = {
 
         // Include LinkedIn Insight in development.
         // Defaults to false meaning LinkedIn Insight will only be loaded in production.
-        includeInDevelopment: false
-      }
+        includeInDevelopment: false,
+      },
     },
     {
-      resolve: 'gatsby-plugin-drift',
+      resolve: "gatsby-plugin-drift",
       options: {
-        appId: '8eii5mpe6kt2',
+        appId: "8eii5mpe6kt2",
       },
     },
   ],
