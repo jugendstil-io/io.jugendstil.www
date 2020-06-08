@@ -1,23 +1,21 @@
 import React from "react"
 import Button from "../Button"
-import URL from "../../url"
 import circle from "../../images/circle.png"
 
 import "./index.scss"
 
-const Hero = () => (
+const Hero = ({ title, description, action }) => (
   <div className="hero-wrapper">
     <div className="row">
       <div className="col-md-7">
         <div className="hero-content">
-          <h1 className="title">#CREATINGIMPACT</h1>
+          <h1 className="title">{title}</h1>
           <div>
             <div className="hero-description">
-              <p>
-                We empower organisations to create business impact and seamless
-                digital experiences through technology.
-              </p>
-              <Button.Primary label="Contact" url={URL.CONTACT} />
+              <p>{description}</p>
+              {action && (
+                <Button.Primary label={action.label} url={action.url} />
+              )}
             </div>
           </div>
         </div>

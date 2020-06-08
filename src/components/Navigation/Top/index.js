@@ -7,24 +7,16 @@ import BurgerMenu from "../BurgerMenu"
 
 const links = [
   {
-    name: "Service",
-    url: "#",
-  },
-  {
-    name: "Industries",
-    url: "#",
+    name: "Services",
+    url: URL.SERVICE.INDEX,
   },
   {
     name: "About Us",
-    url: "#",
+    url: URL.ABOUT_US,
   },
   {
     name: "Contact",
     url: URL.CONTACT,
-  },
-  {
-    name: "Join us",
-    url: "#",
   },
 ]
 

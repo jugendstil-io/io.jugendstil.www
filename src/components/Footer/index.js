@@ -17,19 +17,13 @@ const Footer = () => (
         <span className="visible-sm visible-md visible-lg">
           <ul>
             <li>
-              <a href="#">Service</a>
+              <a href={URL.SERVICE.INDEX}>Service</a>
             </li>
             <li>
-              <a href="#">Industries</a>
-            </li>
-            <li>
-              <a href="#">About Us</a>
+              <a href={URL.ABOUT_US}>About Us</a>
             </li>
             <li>
               <a href={URL.CONTACT}>Contact</a>
-            </li>
-            <li>
-              <a href="#">Join us</a>
             </li>
             <li>
               <a

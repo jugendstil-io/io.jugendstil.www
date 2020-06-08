@@ -1,38 +1,11 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import { ContactCard } from "../components/Card"
 import Metadata from "../components/metadata"
 import contact from "../contact.json"
 
-import "./index.scss"
-
 const telephone = contact.find(it => it.hq === true).telephone
-
-const card = contact => (
-  <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4" key={contact.email}>
-    <div className="box-row">
-      <div className="card">
-        <div className="card-content">
-          <div className="card-header">
-            <h3 className="card-title">{contact.address.city}</h3>
-            <div className="card-arrow">
-              <a href="#"></a>
-            </div>
-          </div>
-          <p className="card-description">
-            <span className="">{contact.email}</span>
-            <address>
-              {contact.address.line01}
-              <br />
-              {contact.address.zipCode}, {contact.address.city}
-            </address>
-          </p>
-        </div>
-        <div className={`card-map map-${contact.address.city.toLowerCase()}`} />
-      </div>
-    </div>
-  </div>
-)
 
 const Contact = () => (
   <Layout>
@@ -42,9 +15,20 @@ const Contact = () => (
     />
     <section className="grey">
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-8">
           <h2>Contact</h2>
-          <p>Get in touch or drop by, we're always open for a chat.</p>
+          <p>
+            <strong>
+              Need a tailored solution for your business? Then we should have a
+              chat.
+            </strong>
+          </p>
+          <p>
+            Not every business problem can be solved through technology – but
+            some definitely can. Let's have a chat about your specific
+            requirements, and we'll see if we can help to fuel your vision with
+            life.
+          </p>
           <p>
             {contact.find(it => it.hq === true).email}
             <br />
@@ -60,7 +44,7 @@ const Contact = () => (
           <p>Where to find us.</p>
         </div>
       </div>
-      <div className="row">{contact.map(card)}</div>
+      <div className="row">{contact.map(ContactCard)}</div>
     </section>
   </Layout>
 )

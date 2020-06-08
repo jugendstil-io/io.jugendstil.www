@@ -10,6 +10,7 @@ body {
 
 a {
   font-family: $fontMedium;
+  color: $black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -48,7 +49,6 @@ section {
   &.grey {
     background-color: #f2f2f2;
     position: relative;
-    z-index: -100;
     padding: 3rem 6rem 2rem 3rem;
 
     @media (max-width: 768px) {
@@ -132,4 +132,8 @@ main {
       list-style-type: lower-alpha;
     }
   }
+}
+
+.z-minus-100 {
+  z-index: -100;
 }

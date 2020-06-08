@@ -1,25 +1,73 @@
 [
   {
-    "title": "Strategy & Consulting",
-    "teaser": "We help envision and execute your end-to-end transformation at speed and at scale."
+    "active": true,
+    "title": "Enterprise Software Development",
+    "teaser": "We create sophisticated enterprise software, ensure reliable software integration and modernise your legacy system landscape.",
+    "url": "/service/software-engineering/",
+    "capabilities": [
+      {
+        "title": "Custom Software Development",
+        "teaser": "We build custom software solutions that accelerate innovation and adapt to your growing organisation."
+      },
+      {
+        "title": "Legacy Application Modernisation",
+        "teaser": "Transforming your legacy applications to become more agile and efficient through the power of New IT."
+      },
+      {
+        "title": "Project Management",
+        "teaser": "On time, on budget, on point. We help you drive quality and predictability in a volatile, fast-paced world."
+      },
+      {
+        "title": "Enterprise Architecture",
+        "teaser": "Design or plan your IT systems to make them adaptable, predictable and easier to maintain while making way for new systems and capabilities."
+      },
+      {
+        "title": "Software Integration",
+        "teaser": "Organisations rely on well-coordinated SaaS and third-party applications. Improve your software foundation with well-built micro-services, reliable APIs and data integrations."
+      },
+      {
+        "title": "Testing And Quality Assurance",
+        "teaser": "AI, blockchain, IoT—new technology requires a new way of testing, one that lowers risk while improving experience and response time."
+      }
+    ]
   },
   {
-    "title": "Customer Experience & Design",
+    "active": true,
+    "title": "Customer Experience & UX Design",
     "teaser": "Personalised customer journeys, strong customer experience and happy customers."
   },
   {
+    "active": false,
     "title": "Innovation & Digital Product Management",
     "teaser": "Our multi-disciplinary team helps you speed up innovation delivery at predictable cost."
   },
   {
-    "title": "Technology & Engineering",
-    "teaser": "You dream it, we build it. We turn innovation into differentiation by putting custom systems and skill-sets in place to realize your vision at scale."
+    "active": true,
+    "title": "Strategy & IT Consulting",
+    "teaser": "We help envision and execute your end-to-end transformation at speed and at scale."
   },
   {
+    "active": true,
+    "title": "DevOps Culture, Process and Platform",
+    "teaser": "Our DevOps process helps you automate and optimise your IT operations and to build, test, deploy and monitor applications with speed, quality and control."
+  },
+  {
+    "active": true,
+    "title": "Mobile app development",
+    "teaser": "Our mobile engineers fuel your vision with life and turn your idea into a functional, intuitive, fast and interactive cross-platform or native mobile application."
+  },
+  {
+    "active": true,
+    "title": "Testing And Quality Assurance",
+    "teaser": "AI, blockchain, IoT—new technology requires a new way of testing, one that lowers risk while improving experience and response time."
+  },
+  {
+    "active": false,
     "title": "Blockchain & Smart contracts",
     "teaser": "Jugendstil_IO's blockchain capabilities empower businesses to re-imagine how financial transactions are processed, from payments to post-trade processing."
   },
   {
+    "active": false,
     "title": "Legal Advice & Digital Law",
     "teaser": "Protecting your legal rights in the digital age - Jugendstil_IO offers a full range of legal services with emphasis on digital law."
   }

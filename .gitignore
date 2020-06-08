@@ -219,3 +219,6 @@ dist/
 # Temporary folders
 tmp/
 temp/
+
+# GatsbyJS
+public/
