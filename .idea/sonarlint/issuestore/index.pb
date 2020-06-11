@@ -82,8 +82,14 @@ N
 src/components/Card/index.scss,4/f/4fe829746d5880331c7e392d935585e0353aad0e
 L
 src/components/Card/index.js,f/2/f242548f6db9da5c97b04b7253982dab28fab33b
-d
-4src/pages/service/enterprise-software-development.js,4/6/46505678e65f2dba8dca0c1fe7dcf99c4efd5de9
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+Y
+)src/pages/service/software-engineering.js,1/1/1188e9dc862b6b080cc7b2876814262b194cc366
+P
+ src/thoughts-on-programming.json,0/b/0b7234db9bf3902a6f70563cb843a758493ef256
+T
+$src/pages/thoughts-on-programming.js,0/7/07809cfa52b02855e4ff79f2f82ee2d636045cd3
+V
+&src/pages/thoughts-on-programming.scss,c/1/c1951e1f686b5d736dcaa50e5f830ac23f191de0

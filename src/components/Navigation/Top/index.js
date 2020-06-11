@@ -23,7 +23,7 @@ const links = [
 const TopNavigation = () => (
   <nav className="top-navigation" role="navigation">
     <a className="logo" href="/">
-      <img src={logo} width={140} />
+      <img alt="Jugendstil_IO" src={logo} width={140} />
     </a>
 
     <span className="visible-sm visible-md visible-lg">

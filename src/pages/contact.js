@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { ContactCard } from "../components/Card"
 import Metadata from "../components/metadata"
-import contact from "../contact.json"
+import contact from "../data/contact.json"
 
 const telephone = contact.find(it => it.hq === true).telephone
 

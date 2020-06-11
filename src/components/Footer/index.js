@@ -1,7 +1,7 @@
 import React from "react"
 import { GitHub, Instagram, LinkedIn, Twitter } from "../../icons/index"
 import URL from "../../url"
-import contact from "../../contact.json"
+import contact from "../../data/contact.json"
 
 import "./index.scss"
 
@@ -23,6 +23,9 @@ const Footer = () => (
               <a href={URL.ABOUT_US}>About Us</a>
             </li>
             <li>
+              <a href={URL.THOUGHTS_ON_PROGRAMMING}>Thoughts</a>
+            </li>
+            <li>
               <a href={URL.CONTACT}>Contact</a>
             </li>
             <li>
@@ -33,20 +36,23 @@ const Footer = () => (
                 <LinkedIn height={style.iconHeight} width={style.iconWidth} />
               </a>
               <a
-                target="_blank"
                 href={contact.find(it => it.hq === true).twitter}
+                rel="noreferrer"
+                target="_blank"
               >
                 <Twitter height={style.iconHeight} width={style.iconWidth} />
               </a>
               <a
-                target="_blank"
                 href={contact.find(it => it.hq === true).github}
+                rel="noreferrer"
+                target="_blank"
               >
                 <GitHub height={style.iconHeight} width={style.iconWidth} />
               </a>
               <a
-                target="_blank"
                 href={contact.find(it => it.hq === true).instagram}
+                rel="noreferrer"
+                target="_blank"
               >
                 <Instagram height={style.iconHeight} width={style.iconWidth} />
               </a>

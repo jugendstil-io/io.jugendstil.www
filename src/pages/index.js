@@ -4,7 +4,7 @@ import Hero from "../components/Hero"
 import Layout from "../components/layout"
 import { ServiceCard } from "../components/Card"
 import Metadata from "../components/metadata"
-import services from "../services.json"
+import services from "../data/services.json"
 import pkg from "../../package.json"
 
 import URL from "../url"
