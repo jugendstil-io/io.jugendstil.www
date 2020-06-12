@@ -1,0 +1,33 @@
+@import "../styles/colors";
+
+.thought-title {
+  small {
+    font-size: 50%;
+  }
+}
+
+ul.breadcrumb {
+  padding: 0;
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: $black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: $black;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: $purple;
+  text-decoration: underline;
+}

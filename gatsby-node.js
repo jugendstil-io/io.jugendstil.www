@@ -3,5 +3,21 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
+const path = require(`path`)
+const thoughtsOnProgramming = require("./src/data/thoughts-on-programming.json")
 
-// You can delete this file if you're not using it
+exports.createPages = ({ actions }) => {
+  const { createPage } = actions
+  const template = path.resolve(`src/templates/thoughts-on-programming-post.js`)
+
+  thoughtsOnProgramming.forEach(thought => {
+    createPage({
+      path: `/thoughts-on-programming/${thought.id}/`,
+      component: template,
+      context: {
+        name: thought.id,
+        thought,
+      },
+    })
+  })
+}

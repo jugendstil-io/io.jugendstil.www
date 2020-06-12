@@ -11,10 +11,6 @@ B
 src/pages/index.js,c/1/c16ef34da304c300e7b6c91b3a47fea77c278c7a
 J
 src/components/metadata.js,3/3/33f801f114410d4d6af9f646e97d5892965f2272
-A
-src/services.json,1/a/1aa9ad603ef6b8b6db4f630643a56079f7feaf6f
-@
-src/contact.json,2/6/264f7f77a00b40fcc4517f00ef0df33ad4c5ff9e
 V
 &src/components/Navigation/Top/index.js,5/f/5fae53e187c811df1a4406f695a3f3b3917f4758
 H
@@ -87,9 +83,13 @@ L
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 Y
 )src/pages/service/software-engineering.js,1/1/1188e9dc862b6b080cc7b2876814262b194cc366
-P
- src/thoughts-on-programming.json,0/b/0b7234db9bf3902a6f70563cb843a758493ef256
 T
 $src/pages/thoughts-on-programming.js,0/7/07809cfa52b02855e4ff79f2f82ee2d636045cd3
 V
 &src/pages/thoughts-on-programming.scss,c/1/c1951e1f686b5d736dcaa50e5f830ac23f191de0
+F
+src/data/services.json,4/f/4ff17be0a7a783a9f1c2510a4f081661e70de355
+E
+src/data/contact.json,5/f/5f80825fedb4fb4fae733afa64d30c10855fdcbe
+U
+%src/data/thoughts-on-programming.json,3/3/33183674f24bf0632cbed5456d0c6bf657212c66

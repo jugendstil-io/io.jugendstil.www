@@ -5,6 +5,7 @@ import Metadata from "../components/metadata"
 
 import thoughtsOnProgramming from "../data/thoughts-on-programming.json"
 import "./thoughts-on-programming.scss"
+import URL from "../url"
 
 const meta = {
   title: "Thoughts On Programming",
@@ -14,9 +15,9 @@ const meta = {
 
 const Thought = it => (
   <div className="thought" key={it.id}>
-    <a href={it.image.src} target="_blank" rel="noreferrer">
+    <a href={`${URL.THOUGHTS_ON_PROGRAMMING}/${it.id}/`}>
       <img
-        alt={it.description}
+        alt={it.quote}
         src={it.image.src}
         srcSet={it.image.srcSet}
         sizes={it.image.sizes}
@@ -48,9 +49,16 @@ const ThoughtsOnProgrammingPage = ({ data }) => {
       <section>
         <div className="row">
           <div className="col-xs-12 col-sm-9 col-md-9 col-lg-9">
-            <h1 className="title">{meta.title}</h1>
+            <h1 className="thought-title">
+              <small>
+                Thoughts on
+                <br />
+              </small>{" "}
+              Programming
+            </h1>
             <p>
-              {meta.description}{" "}
+              We have compiled a list of quotes which help you start the day
+              with positive vibes! You can follow us on{" "}
               <a
                 href="https://www.instagram.com/jugendstil_io/"
                 rel="noreferrer"
