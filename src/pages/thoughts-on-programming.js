@@ -41,6 +41,7 @@ const ThoughtsOnProgrammingPage = ({ data }) => {
         },
       }
     })
+    .filter(it => it.published)
     .sort((a, b) => b.date - a.date)
 
   return (

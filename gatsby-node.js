@@ -10,14 +10,16 @@ exports.createPages = ({ actions }) => {
   const { createPage } = actions
   const template = path.resolve(`src/templates/thoughts-on-programming-post.js`)
 
-  thoughtsOnProgramming.forEach(thought => {
-    createPage({
-      path: `/thoughts-on-programming/${thought.id}/`,
-      component: template,
-      context: {
-        name: thought.id,
-        thought,
-      },
+  thoughtsOnProgramming
+    .filter(it => it.published)
+    .forEach(thought => {
+      createPage({
+        path: `/thoughts-on-programming/${thought.id}/`,
+        component: template,
+        context: {
+          name: thought.id,
+          thought,
+        },
+      })
     })
-  })
 }
