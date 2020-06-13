@@ -10,7 +10,7 @@ import URL from "../url"
 const meta = {
   title: "Thoughts On Programming",
   description:
-    "We have compiled a list of quotes which help you start the day with positive vibes! You can follow us on Instagram, Twitter or LinkedIn to get the latest #ThoughtsOnProgramming straight to your inbox.",
+    '"Thoughts on programming" is a curated listing of quotes from industry thought leaders on software craftsmanship, product development and lean thinking in general.',
 }
 
 const Thought = it => (
@@ -58,8 +58,9 @@ const ThoughtsOnProgrammingPage = ({ data }) => {
               Programming
             </h1>
             <p>
-              We have compiled a list of quotes which help you start the day
-              with positive vibes! You can follow us on{" "}
+              "Thoughts on programming" is a curated listing of quotes from
+              industry thought leaders on software craftsmanship, product
+              development and lean thinking in general. Follow us on{" "}
               <a
                 href="https://www.instagram.com/jugendstil_io/"
                 rel="noreferrer"
@@ -83,8 +84,8 @@ const ThoughtsOnProgrammingPage = ({ data }) => {
               >
                 LinkedIn
               </a>{" "}
-              to get the latest <em>#ThoughtsOnProgramming</em> straight to your
-              inbox.
+              to receive the latest <em>#ThoughtsOnProgramming</em> straight to
+              your inbox.
             </p>
           </div>
         </div>

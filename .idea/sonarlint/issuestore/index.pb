@@ -25,8 +25,6 @@ L
 src/components/Hero/index.js,f/3/f3990e2d2a0d02aa277665922855e05566d66c7b
 K
 public/manifest.webmanifest,d/2/d2b67c194258d8c7654ecb9984d2e86f222e24d1
-?
-public/404.html,9/1/9165de4c08ed7f75a6e91e356e892f20aa817eb8
 G
 src/components/image.js,9/2/92b97d14cdd18166b6e843bc4a2fe3f8b9aa7a16
 J
@@ -93,3 +91,7 @@ E
 src/data/contact.json,5/f/5f80825fedb4fb4fae733afa64d30c10855fdcbe
 U
 %src/data/thoughts-on-programming.json,3/3/33183674f24bf0632cbed5456d0c6bf657212c66
+_
+/src/templates/thoughts-on-programming-post.scss,1/7/171449ad91a83ad51574e43937d70f18f23685c3
+]
+-src/templates/thoughts-on-programming-post.js,e/2/e219b2aefe6f04e14cc6af67af03f1fd03ef7a80
