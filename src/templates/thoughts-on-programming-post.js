@@ -27,6 +27,9 @@ const ThoughtsOnProgrammingPost = ({ data, pageContext }) => {
         title={`Thought by ${thought.author}: ${thought.quote}`}
         description={thought.description}
         image={thought.image.src}
+        openGraph={{
+          title: `Thought by: ${thought.author}`,
+        }}
       />
       <section>
         <div className="row">

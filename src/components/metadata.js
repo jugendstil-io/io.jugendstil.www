@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function Metadata({ description, lang, meta, title, image }) {
+function Metadata({ description, lang, meta, title, image, openGraph }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -33,7 +33,7 @@ function Metadata({ description, lang, meta, title, image }) {
     },
     {
       property: `og:title`,
-      content: title,
+      content: (openGraph && openGraph.title) || title,
     },
     {
       property: `og:description`,
@@ -53,7 +53,7 @@ function Metadata({ description, lang, meta, title, image }) {
     },
     {
       name: `twitter:title`,
-      content: title,
+      content: (openGraph && openGraph.title) || title,
     },
     {
       name: `twitter:description`,
