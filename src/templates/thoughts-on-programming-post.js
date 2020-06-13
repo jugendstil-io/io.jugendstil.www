@@ -26,6 +26,7 @@ const ThoughtsOnProgrammingPost = ({ data, pageContext }) => {
       <Metadata
         title={`Thought by ${thought.author}: ${thought.quote}`}
         description={thought.description}
+        image={thought.image.src}
       />
       <section>
         <div className="row">
