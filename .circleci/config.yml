@@ -1,0 +1,85 @@
+---
+version: 2.1
+
+executors:
+  node-executor:
+    docker:
+      - image: circleci/node:lts-jessie
+    working_directory: "~/project"
+
+jobs:
+  install-dependencies:
+    executor: node-executor
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: |
+            yarn install
+      - persist_to_workspace:
+          root: ~/
+          paths:
+            - project/
+
+  test-lint:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: ~/
+      - run:
+          name: Run web-ui lint check
+          command: |
+            yarn run lint
+
+  test-unit:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: ~/
+      - run:
+          name: Run web-ui unit test
+          command: |
+            yarn run test
+
+  release-production:
+    environment:
+      NODE_ENV: "production"
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: ~/
+      - add_ssh_keys:
+          fingerprints:
+            - "05:8b:21:a3:24:ca:d5:9a:2b:ab:e7:c0:ee:4e:61:04"
+      - run:
+          name: Establishing GitHub authenticity
+          command: |
+            mkdir -p ~/.ssh
+            echo 'github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==' >> ~/.ssh/known_hosts
+      - run:
+          name: Configure git
+          command: |
+            git config user.email "ci-build@jugendstil.io"
+            git config user.name "ci-build"
+      - run:
+          name: Deploy to GitHub pages
+          command: yarn run deploy
+
+workflows:
+  version: 2
+
+  test_and_release_production:
+    jobs:
+      - install-dependencies
+      - test-lint:
+          requires:
+            - install-dependencies
+      - test-unit:
+          requires:
+            - test-lint
+      - release-production:
+          requires:
+            - test-unit
+          filters:
+            branches:
+              only: master
