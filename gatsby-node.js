@@ -12,13 +12,35 @@ exports.createPages = ({ actions }) => {
 
   thoughtsOnProgramming
     .filter(it => it.published)
-    .forEach(thought => {
+    .sort((a, b) => b.date - a.date)
+    .forEach((thought, index, thoughts) => {
+      const path = `/thoughts-on-programming/${thought.id}/`
+
+      const next = thoughts[index - 1]
+        ? {
+            path: `/thoughts-on-programming/${thoughts[index - 1].id}/`,
+            thought: thoughts[index - 1],
+          }
+        : undefined
+
+      const prev = thoughts[index + 1]
+        ? {
+            path: `/thoughts-on-programming/${thoughts[index + 1].id}/`,
+            thought: thoughts[index + 1],
+          }
+        : undefined
+
       createPage({
-        path: `/thoughts-on-programming/${thought.id}/`,
+        path,
         component: template,
         context: {
           name: thought.id,
-          thought,
+          current: {
+            path,
+            thought,
+          },
+          next,
+          prev,
         },
       })
     })
