@@ -7,7 +7,7 @@ import Metadata from "../components/metadata"
 import "./thoughts-on-programming-post.scss"
 import URL from "../url"
 
-const ThoughtsOnProgrammingPost = ({ data, path, pageContext }) => {
+const ThoughtsOnProgrammingPost = ({ data, pageContext }) => {
   const image = data.allFile.edges.map(it => it.node).pop()
   const thought = Object.assign(
     {},
@@ -44,9 +44,7 @@ const ThoughtsOnProgrammingPost = ({ data, path, pageContext }) => {
                 </a>
               </li>
               <li>
-                <a href={path}>
-                  {moment(thought.createdAt).format("MMMM DD, YYYY")}
-                </a>
+                <em>{moment(thought.createdAt).format("MMMM DD, YYYY")}</em>
               </li>
             </ul>
             <p>{thought.description}</p>
