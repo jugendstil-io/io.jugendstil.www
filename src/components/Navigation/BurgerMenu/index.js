@@ -10,10 +10,6 @@ export default class BurgerMenu extends React.Component {
 
     this.state = {
       isOpen: false,
-      overlay: {
-        height: 0,
-        width: 0,
-      },
     }
 
     this.toggle = this.toggle.bind(this)
