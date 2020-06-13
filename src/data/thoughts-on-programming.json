@@ -54,5 +54,19 @@
     "description": "Today's #ThoughtsOnProgramming features Gordon Bell, who designed the I/O subsystem of the PDP-1 while working as an electrical engineer at the Digital Equipment Corporation.",
     "id": "11da0cce-a44f-4834-89bd-9c1add24f96f",
     "quote": "The cheapest, fastest, and most reliable components are those that aren’t there."
+  },
+  {
+    "author": "Kent Beck",
+    "createdAt": "02 Jun 2020 00:00:00 UTC",
+    "description": "👩🏻‍💻👨🏻‍💻 Today's issue of #ThoughtsOnProgramming features Kent Beck, the #Agile godfather of #ExtremeProgramming and #TestDrivenDevelopment.",
+    "id": "2a909919-738d-424b-91cd-609dc862c2c1",
+    "quote": "It's not a testing problem, it's a design problem manifesting as a testing problem. Usually."
+  },
+  {
+    "author": "Holy Bible (Proverbs 27:1)",
+    "createdAt": "01 Jun 2020 00:00:00 UTC",
+    "description": "💡 There are a lot of reasons for doing #PairProgramming. But ultimately it's about #Teamwork; it requires excellent communication and mutual respect.",
+    "id": "f3572795-ffcb-434b-8ee3-715410f0c28a",
+    "quote": "As iron sharpens iron, so one person sharpens another."
   }
 ]
