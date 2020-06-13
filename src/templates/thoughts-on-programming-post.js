@@ -52,16 +52,15 @@ const ThoughtsOnProgrammingPost = ({ data, pageContext }) => {
               </li>
             </ul>
             <p>{thought.description}</p>
-            <img
-              style={{
-                width: `100%`,
-                marginBottom: `3rem`,
-              }}
-              alt={thought.quote}
-              src={thought.image.src}
-              srcSet={thought.image.srcSet}
-              sizes={thought.image.sizes}
-            />
+            <figure className="thought">
+              <img
+                alt={thought.quote}
+                src={thought.image.src}
+                srcSet={thought.image.srcSet}
+                sizes={thought.image.sizes}
+              />
+              <figcaption>{thought.quote}</figcaption>
+            </figure>
           </div>
         </div>
         <div className="row">
