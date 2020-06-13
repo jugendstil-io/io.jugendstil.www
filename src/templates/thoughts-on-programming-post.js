@@ -66,17 +66,17 @@ const ThoughtsOnProgrammingPost = ({ data, pageContext }) => {
         <div className="row">
           <nav className="col-xs-12 col-sm-9 col-md-9 col-lg-9">
             <ul className="prev-next-navigation">
-              {pageContext.next && (
-                <li className="next">
-                  <a rel="next" href={pageContext.next.path}>
-                    ← Next
-                  </a>
-                </li>
-              )}
               {pageContext.prev && (
                 <li className="prev">
                   <a rel="prev" href={pageContext.prev.path}>
-                    Prev →
+                    ← Prev
+                  </a>
+                </li>
+              )}
+              {pageContext.next && (
+                <li className="next">
+                  <a rel="next" href={pageContext.next.path}>
+                    Next →
                   </a>
                 </li>
               )}
