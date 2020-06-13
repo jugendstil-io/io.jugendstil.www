@@ -16,9 +16,10 @@ function Metadata({ description, lang, meta, title, image, openGraph }) {
       query {
         site {
           siteMetadata {
-            title
-            description
             author
+            description
+            siteUrl
+            title
           }
         }
       }
@@ -62,8 +63,11 @@ function Metadata({ description, lang, meta, title, image, openGraph }) {
   ]
 
   if (image) {
-    meta.push({ name: "og:image", content: image })
-    meta.push({ name: "twitter:image", content: image })
+    const url = new URL(site.siteMetadata.siteUrl)
+    url.pathname = image
+
+    meta.push({ name: "og:image", content: url })
+    meta.push({ name: "twitter:image", content: url })
   }
 
   return (
