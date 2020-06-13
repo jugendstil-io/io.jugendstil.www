@@ -45,7 +45,7 @@ const ThoughtsOnProgrammingPage = ({ data }) => {
     .sort((a, b) => b.date - a.date)
 
   return (
-    <Layout>
+    <Layout className="thoughts-on-programming-index-page">
       <Metadata title={meta.title} description={meta.description} />
       <section>
         <div className="row">

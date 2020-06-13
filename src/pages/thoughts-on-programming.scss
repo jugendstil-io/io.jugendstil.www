@@ -1,11 +1,15 @@
-.thought {
-  padding: 9px;
+$page-id: thoughts-on-programming-index-page;
 
-  img {
-    width: 293px;
+.#{$page-id} {
+  .thought {
+    padding: 9px;
 
-    @media (max-width: 768px) {
-      width: 100%;
+    img {
+      width: 293px;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
     }
   }
 }

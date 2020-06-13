@@ -22,7 +22,7 @@ const ThoughtsOnProgrammingPost = ({ data, pageContext }) => {
   )
 
   return (
-    <Layout>
+    <Layout className="thoughts-on-programming-detail-page">
       <Metadata
         title={`Thought by ${thought.author}: ${thought.quote}`}
         description={thought.description}
