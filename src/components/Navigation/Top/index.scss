@@ -6,6 +6,7 @@
   border-bottom: 1px solid $gainsboro;
   display: flex;
   position: relative;
+  z-index: 1;
 
   ul.menu-link-list {
     list-style: none;

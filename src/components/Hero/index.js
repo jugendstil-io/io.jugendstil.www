@@ -1,33 +1,27 @@
 import React from "react"
 import Button from "../Button"
 import circle from "../../images/circle.png"
+import { kebabCase } from "lodash"
 
 import "./index.scss"
 
-const Hero = ({ title, description, action }) => (
+const Hero = ({ title, teaser, action, content }) => (
   <div className="hero-wrapper">
-    <div className="row">
-      <div className="col-md-7">
-        <div className="hero-content">
-          <h1 className="title">{title}</h1>
-          <div>
-            <div className="hero-description">
-              <p>{description}</p>
-              {action && (
-                <Button.Primary label={action.label} url={action.url} />
-              )}
-            </div>
+    <div className="hero-inner">
+      <img className="hero-image" src={circle} />
+      <div className="hero-teaser">
+        <h1>{title}</h1>
+        <p>{teaser}</p>
+        {action && (
+          <div className="hero-action">
+            <Button.Primary label={action.label} url={action.url} />
           </div>
-        </div>
+        )}
       </div>
-
-      <div className="col-md-4">
-        <div
-          className="hero-image"
-          style={{
-            backgroundImage: `url(${circle})`,
-          }}
-        />
+      <div className="hero-content">
+        <h2 id={kebabCase(content.title)}>{content.title}</h2>
+        {Array.isArray(content.description) &&
+          content.description.map(it => <p>{it}</p>)}
       </div>
     </div>
   </div>

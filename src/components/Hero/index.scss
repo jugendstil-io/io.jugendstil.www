@@ -1,54 +1,87 @@
-.hero-content {
-  h1.title {
-    margin-top: 0;
-    margin-bottom: 1.5rem;
-    letter-spacing: -0.185rem;
+@import "../../styles/breakpoint";
+@import "../../styles/mixin";
 
-    @media (max-width: 768px) {
-      font-size: 1.95rem;
-      letter-spacing: 0.005rem;
+$component-id: hero-wrapper;
+
+.#{$component-id} {
+  margin: 3rem auto;
+  max-width: $content-max-width;
+
+  .hero-teaser {
+    margin: 0 5rem 2rem 1rem;
+
+    @include md {
+      margin: 0 15rem 2rem 0;
+    }
+
+    @include lg {
+      margin: 0 15rem 2rem 0;
+    }
+
+    @include xl {
+      margin: 0 15rem 2rem 0;
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.185rem;
+
+      @media (max-width: 768px) {
+        font-size: 1.95rem;
+        letter-spacing: 0.005rem;
+      }
+    }
+
+    p {
+      font-family: "J_ Medium", "Arial", "Sans-Serif", serif;
+      font-size: 1.15rem;
+      margin-bottom: 2.5rem;
+      width: 60%;
+
+      @media (max-width: 768px) {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+      }
     }
   }
 
-  p {
-    font-family: "J_ Medium";
-    font-size: 1.15rem;
-    margin-bottom: 2.5rem;
-    width: 85%;
+  .hero-content {
+    background-color: #f2f2f2;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding: 3rem 2rem 2rem;
+    position: relative;
+    z-index: -1;
 
-    @media (max-width: 768px) {
-      font-size: 1rem;
-      width: 100%;
+    @include md {
+      padding: 3rem 15rem 2rem 3rem;
+      margin-bottom: 6rem;
+      margin-top: 5rem;
     }
   }
-}
 
-.hero-image {
-  background-position: center center;
-  background-size: cover;
-  height: 750px;
-  margin: -11.5rem -12rem;
-  position: relative;
-  width: 750px;
-  z-index: -99;
+  .hero-inner {
+    overflow: hidden;
+    position: relative;
 
-  @media (max-width: 768px) {
-    background-position: 18% 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    margin: -17rem auto;
+    @include lg {
+      overflow: visible;
+    }
+  }
+
+  .hero-image {
+    display: block;
     position: absolute;
-    right: 0;
-    width: 225px;
-  }
-}
+    right: -2rem;
+    width: 260px;
 
-.hero-wrapper {
-  margin-top: 5rem;
-  margin-bottom: -3rem;
+    @include md {
+      width: 440px;
+    }
 
-  @media (max-width: 768px) {
-    margin: 3rem 2rem 3rem 2rem;
+    @include lg {
+      width: 480px;
+    }
   }
 }

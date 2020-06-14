@@ -1,3 +1,5 @@
+@import "./breakpoint";
+
 .visible-lg {
   display: none !important;
 }
@@ -14,7 +16,7 @@
   display: none !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: $screen-md-min) {
   .visible-xs {
     display: block !important;
   }
@@ -23,7 +25,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $screen-md-min) {
   .visible-sm {
     display: block !important;
   }
@@ -32,7 +34,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: $screen-lg-min) {
   .visible-md {
     display: block !important;
   }
@@ -41,7 +43,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $screen-xl-min) {
   .visible-lg {
     display: block !important;
   }

@@ -3,7 +3,7 @@ import React from "react"
 
 import TopNavigation from "./Navigation/Top/index"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
     <TopNavigation />
   </header>
