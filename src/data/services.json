@@ -33,8 +33,23 @@
   },
   {
     "active": true,
+    "teaser": "Personalised customer journeys, strong customer experience and happy customers.",
     "title": "Customer Experience & UX Design",
-    "teaser": "Personalised customer journeys, strong customer experience and happy customers."
+    "url": "/service/customer-experience",
+    "capabilities": [
+      {
+        "title": "Customer Experience Leadership",
+        "teaser": "We build custom software solutions that accelerate innovation and adapt to your growing organisation."
+      },
+      {
+        "title": "Customer Strategy & Marketing",
+        "teaser": "You understand that your customers are the origin of actual growth. But what do they care about? How do you reach them? What happens when you put them first? We connect practical expertise in operations and economics to support you build a customer-centric organisation."
+      },
+      {
+        "title": "Customer Episode Design",
+        "teaser": "A proven way to transform the customer experience, at scale."
+      }
+    ]
   },
   {
     "active": false,
