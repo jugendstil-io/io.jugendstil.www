@@ -23,15 +23,21 @@ const ThoughtsOnProgrammingPost = ({ data, pageContext }) => {
     }
   )
 
-  const description = (
-    <p dangerouslySetInnerHTML={{ __html: thought.description }} />
-  )
+  if (!Array.isArray(thought.description)) {
+    throw Error(
+      `Property "description" of thought ${thought.id} must be of type array.`
+    )
+  }
+
+  const description = thought.description.map(it => (
+    <p dangerouslySetInnerHTML={{ __html: it }} />
+  ))
 
   return (
     <Layout className="thoughts-on-programming-detail-page">
       <Metadata
         title={`Thought by ${thought.author}: ${thought.quote}`}
-        description={stripHtml(thought.description)}
+        description={stripHtml(thought.description.join(" "))}
         image={thought.image.src}
         openGraph={{
           title: `Thought by: ${thought.author}`,
