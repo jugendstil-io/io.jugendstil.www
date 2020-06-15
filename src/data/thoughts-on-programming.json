@@ -1,5 +1,13 @@
 [
   {
+    "author": "Linus Torvalds",
+    "createdAt": "15 Jun 2020 00:00:00 UTC",
+    "description": "Happy Monday Everybody \uD83C\uDF89, today's #ThoughtsOnProgramming features Mr. #LinuxKernel Linus Torvalds with a controversial quote on GNOME's lack of usability back in the early 2000s when the project decided to remove a couple of features to provide an enhanced base user experience. You can find this highly entertaining morning reading <a target=\"_blank\" rel=\"nofollow\" href=\"https://mail.gnome.org/archives/usability/2005-December/msg00021.html\">here</a>.",
+    "id": "5241e130-0e28-4294-93fa-5481eeb2f23e",
+    "published": true,
+    "quote": "If you think your users are idiots, only idiots will use it."
+  },
+  {
     "author": "Harold Abelson",
     "createdAt": "12 Jun 2020 00:00:00 UTC",
     "description": "Following up on yesterday's issue of #ThoughtsOfProgramming and the idea of producing clean, comprehensive and maintainable code to increase team effectiveness, here's another very valid point by Harold Abelson.",

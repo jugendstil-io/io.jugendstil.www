@@ -7,6 +7,8 @@ import Metadata from "../components/metadata"
 import "./thoughts-on-programming-post.scss"
 import URL from "../url"
 
+const stripHtml = string => string.replace(/<[^>]*>?/gm, "")
+
 const ThoughtsOnProgrammingPost = ({ data, pageContext }) => {
   const image = data.allFile.edges.map(it => it.node).pop()
   const thought = Object.assign(
@@ -21,11 +23,15 @@ const ThoughtsOnProgrammingPost = ({ data, pageContext }) => {
     }
   )
 
+  const description = (
+    <p dangerouslySetInnerHTML={{ __html: thought.description }} />
+  )
+
   return (
     <Layout className="thoughts-on-programming-detail-page">
       <Metadata
         title={`Thought by ${thought.author}: ${thought.quote}`}
-        description={thought.description}
+        description={stripHtml(thought.description)}
         image={thought.image.src}
         openGraph={{
           title: `Thought by: ${thought.author}`,
@@ -51,7 +57,7 @@ const ThoughtsOnProgrammingPost = ({ data, pageContext }) => {
                 <em>{moment(thought.createdAt).format("MMMM DD, YYYY")}</em>
               </li>
             </ul>
-            <p>{thought.description}</p>
+            {description}
             <figure className="thought">
               <img
                 alt={thought.quote}
