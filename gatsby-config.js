@@ -21,9 +21,10 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -46,7 +47,6 @@ module.exports = {
       resolve: `gatsby-plugin-linkedin-insight`,
       options: {
         partnerId: `2266801`,
-
         // Include LinkedIn Insight in development.
         // Defaults to false meaning LinkedIn Insight will only be loaded in production.
         includeInDevelopment: false,

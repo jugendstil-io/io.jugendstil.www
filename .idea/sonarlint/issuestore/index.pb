@@ -107,3 +107,7 @@ E
 src/styles/mixin.scss,f/2/f205242a6e81f5d2ef1a7e82dea4a52725062870
 X
 (src/pages/service/customer-experience.js,c/9/c98e2c139a9ca9068a125fd9c842a3ab7d82140e
+A
+static/robots.txt,9/5/95c74f27aa1ad6796bdbb967f9a9aa9c847ac592
+B
+public/sitemap.xml,2/f/2fe7f218c8d47bee56d71bed3b5f461be878d1d6
