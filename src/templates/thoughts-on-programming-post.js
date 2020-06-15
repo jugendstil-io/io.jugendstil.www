@@ -1,5 +1,4 @@
 import React from "react"
-import moment from "moment"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Metadata from "../components/metadata"
@@ -28,6 +27,19 @@ const ThoughtsOnProgrammingPost = ({ data, pageContext }) => {
       `Property "description" of thought ${thought.id} must be of type array.`
     )
   }
+
+  const dateTimeFormat = new Intl.DateTimeFormat(`en`, {
+    year: `numeric`,
+    month: `long`,
+    day: `2-digit`,
+  })
+  const [
+    { value: month },
+    ,
+    { value: day },
+    ,
+    { value: year },
+  ] = dateTimeFormat.formatToParts(new Date(thought.createdAt))
 
   const description = thought.description.map(it => (
     <p dangerouslySetInnerHTML={{ __html: it }} />
@@ -60,7 +72,9 @@ const ThoughtsOnProgrammingPost = ({ data, pageContext }) => {
                 </a>
               </li>
               <li>
-                <em>{moment(thought.createdAt).format("MMMM DD, YYYY")}</em>
+                <em>
+                  {month} {day}, {year}
+                </em>
               </li>
             </ul>
             {description}
