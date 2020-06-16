@@ -1,5 +1,16 @@
 [
   {
+    "author": "Chinese Proverb",
+    "createdAt": "16 Jun 2020 00:00:00 UTC",
+    "description": [
+      "\uD83C\uDFAF Regardless of your specific industry, area of expertise or [INSERT WHATEVER YOU WANT HERE], if you want to be successful and grow in the future, the best time to act is now.",
+      "Today's #ThoughtsOnProgramming features a Chinese proverb which we've shamelessly stolen from Will Sack's presentation \"How to fundraise successfully during a pandemic\". Will is the founder of <a target=\"_blank\" rel=\"nofollow\" href=\"https://www.kindara.com\">Kindara</a>, a digital health platform and community for women. He also provides training for entrepreneurs on fundraising through his accelerator program at <a target=\"_blank\" rel=\"nofollow\" href=\"https://foundersgetfunded.com\">GetFunded</a>."
+    ],
+    "id": "a45f5576-fe7a-4f1c-a233-71f427b28322",
+    "published": true,
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now."
+  },
+  {
     "author": "Linus Torvalds",
     "createdAt": "15 Jun 2020 00:00:00 UTC",
     "description": [
