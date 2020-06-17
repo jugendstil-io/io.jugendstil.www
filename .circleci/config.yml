@@ -83,3 +83,22 @@ workflows:
           filters:
             branches:
               only: master
+
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+          filters:
+            branches:
+              only: master
+    jobs:
+      - install-dependencies
+      - test-lint:
+          requires:
+            - install-dependencies
+      - test-unit:
+          requires:
+            - test-lint
+      - release-production:
+          requires:
+            - test-unit
