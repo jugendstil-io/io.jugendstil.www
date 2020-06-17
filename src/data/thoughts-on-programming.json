@@ -1,5 +1,15 @@
 [
   {
+    "author": "Ralph Johnson",
+    "createdAt": "17 Jun 2020 00:00:00 UTC",
+    "description": [
+      "Today's issue of #ThoughtsOnProgramming features Ralph Johnson, co-author of the \"<a target=\"_blank\" rel=\"nofollow\" href=\"https://en.wikipedia.org/wiki/Design_Patterns\">Design Pattern bible</a>\" with a friendly reminder on the importance of creating software which is useful to specific users for achieving a defined goal effectively and with efficiency."
+    ],
+    "id": "bc98a0fd-6c32-4dd9-9b56-805bbe5ebc02",
+    "published": true,
+    "quote": "Before software can be reusable it first has to be usable."
+  },
+  {
     "author": "Chinese Proverb",
     "createdAt": "16 Jun 2020 00:00:00 UTC",
     "description": [
