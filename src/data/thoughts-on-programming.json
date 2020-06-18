@@ -1,5 +1,15 @@
 [
   {
+    "author": "Edsger W. Dijkstra",
+    "createdAt": "18 Jun 2020 00:00:00 UTC",
+    "description": [
+      "Fact: software is written by humans and therefore has bugs and the more code you write, the more bugs you will produce. Today's issue of #ThoughtsOnProgramming features Edsger W. Dijkstra with a somewhat polemical but true statement which serves as a good reminder why one should identify and mitigate risks through systematic testing strategies."
+    ],
+    "id": "1cf9c492-ce91-4e62-9534-c1b22bbfcd0c",
+    "published": true,
+    "quote": "If debugging is the process of removing software bugs, then programming must be the process of putting them in."
+  },
+  {
     "author": "Ralph Johnson",
     "createdAt": "17 Jun 2020 00:00:00 UTC",
     "description": [
