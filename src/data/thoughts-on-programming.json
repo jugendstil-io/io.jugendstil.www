@@ -1,5 +1,15 @@
 [
   {
+    "author": "Douglas Crockford",
+    "createdAt": "19 Jun 2020 00:00:00 UTC",
+    "description": [
+      "Any run-of-the-mill idiot can produce code that a machine can execute, but good programmers write code that mortals can actually comprehend and reason about. Today's #ThoughtsOnProgramming features Douglas Crockford, inventor of the JSON format with a reminder on why style matters."
+    ],
+    "id": "cf241389-3489-4698-a1f0-9c1f59e5f3ad",
+    "published": true,
+    "quote": "It turns out that style matters in programming for the same reason that it matters in writing. It makes for better reading."
+  },
+  {
     "author": "Edsger W. Dijkstra",
     "createdAt": "18 Jun 2020 00:00:00 UTC",
     "description": [

@@ -78,6 +78,7 @@ fabric.properties
 
 # Sonarlint plugin
 .idea/sonarlint/
+.idea/sonarlint/issuestore/index.pb
 
 # SonarQube Plugin
 .idea/**/sonarIssues.xml
