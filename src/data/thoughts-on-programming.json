@@ -1,5 +1,16 @@
 [
   {
+    "author": "Konrad Zuse",
+    "createdAt": "22 Jun 2020 00:00:00 UTC",
+    "description": [
+      "Happy Monday \uD83D\uDC4B, today's issue of #ThoughtsOnProgramming features Konrad Zuse, the inventor of the first programmable computer \"Z3\", who would have turned 110 today on this very 22nd of June.",
+      "His quote dates back from a time when artificial intelligence was any more than just an idea. Interestingly, we are challenging the same questions today, as artificial intelligence, machine learning and the good old fashioned robots are a reality."
+    ],
+    "id": "0e4aa786-2174-44cd-856e-1776d68619d8",
+    "published": true,
+    "quote": "The danger of computers becoming like humans is not as great as the danger of humans becoming like computers."
+  },
+  {
     "author": "Douglas Crockford",
     "createdAt": "19 Jun 2020 00:00:00 UTC",
     "description": [
