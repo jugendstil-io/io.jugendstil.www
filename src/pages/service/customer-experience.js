@@ -27,10 +27,6 @@ const CustomerExperiencePage = () => (
       }}
       title="Customer Experience"
       teaser={service.teaser}
-      action={{
-        label: "Contact",
-        url: URL.CONTACT,
-      }}
     />
     <section>
       <div className="row">

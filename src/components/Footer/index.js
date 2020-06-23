@@ -23,7 +23,7 @@ const Footer = () => (
       <nav className="footer-navigation">
         <ul>
           {links.map(it => (
-            <li>
+            <li key={it.url}>
               <a href={it.url}>{it.name}</a>
             </li>
           ))}
@@ -31,8 +31,9 @@ const Footer = () => (
             <ul>
               <li>
                 <a
-                  target="_blank"
                   href={contact.find(it => it.hq === true).linkedin}
+                  rel="noreferrer"
+                  target="_blank"
                 >
                   <LinkedIn height={style.iconHeight} width={style.iconWidth} />
                 </a>

@@ -1,5 +1,3 @@
-import React from "react"
-
 import { default as Primary } from "./Primary/index"
 
 import "./index.scss"

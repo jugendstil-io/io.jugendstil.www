@@ -8,7 +8,11 @@ import "./index.scss"
 const Hero = ({ title, teaser, action, content }) => (
   <div className="hero-wrapper">
     <div className="hero-inner">
-      <img className="hero-image" src={circle} />
+      <img
+        className="hero-image"
+        src={circle}
+        alt="Jugendstil_IO circular graphic"
+      />
       <div className="hero-teaser">
         <h1>{title}</h1>
         <p>{teaser}</p>
@@ -21,7 +25,7 @@ const Hero = ({ title, teaser, action, content }) => (
       <div className="hero-content">
         <h2 id={kebabCase(content.title)}>{content.title}</h2>
         {Array.isArray(content.description) &&
-          content.description.map(it => <p>{it}</p>)}
+          content.description.map((it, index) => <p key={index}>{it}</p>)}
       </div>
     </div>
   </div>

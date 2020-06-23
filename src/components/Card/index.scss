@@ -81,18 +81,12 @@
       a {
         color: $black;
         display: block;
-        height: 45px;
+        font-size: 2.5rem;
+        left: 1.5rem;
+        position: absolute;
         text-align: center;
         text-decoration: none;
-        width: 86px;
-
-        &:after {
-          content: "\21E2";
-          font-size: 2.5rem;
-          left: 1.5rem;
-          position: absolute;
-          top: 0.3rem;
-        }
+        top: 0.3rem;
       }
     }
   }

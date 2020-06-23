@@ -1,4 +1,5 @@
 import React from "react"
+import { kebabCase } from "lodash"
 
 import "./index.scss"
 
@@ -28,7 +29,7 @@ export const ContactCard = contact => (
 )
 
 export const ServiceCard = ({ title, url, teaser }) => (
-  <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+  <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4" key={kebabCase(title)}>
     <div className="box-row">
       <div className="card">
         <div className="card-content">
@@ -36,7 +37,7 @@ export const ServiceCard = ({ title, url, teaser }) => (
             <h3 className="card-title">{title}</h3>
             {url && (
               <div className="card-arrow">
-                <a href={url} />
+                <a href={url}>&#8674;</a>
               </div>
             )}
           </div>
