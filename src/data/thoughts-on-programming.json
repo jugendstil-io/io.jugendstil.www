@@ -1,5 +1,16 @@
 [
   {
+    "author": "Alan Turing",
+    "createdAt": "23 Jun 2020 00:00:00 UTC",
+    "description": [
+      "Today's issue of #ThoughtsOnProgramming features British mathematician, computer scientist and father of artificial intelligence Alan Turing, who would have turned 108 today.",
+      "The idea of computer-based AI dates back to 1950 when Turing introduced an experiment that is nowadays generally referred to as the Turing test, which in itself is very rudimentary. However, it remains the baseline that needs to be reached before a machine can be considered intelligent."
+    ],
+    "id": "3e7c77a5-e998-47aa-8d29-d5a712589e43",
+    "published": true,
+    "quote": "A computer would deserve to be called intelligent if it could deceive a human into believing that it was human."
+  },
+  {
     "author": "Konrad Zuse",
     "createdAt": "22 Jun 2020 00:00:00 UTC",
     "description": [
