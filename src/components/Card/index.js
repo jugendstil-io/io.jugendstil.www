@@ -47,3 +47,13 @@ export const ServiceCard = ({ title, url, teaser }) => (
     </div>
   </div>
 )
+
+export const TechnologyCard = ({ title, src }) => (
+  <i className="technology-card" key={src} title={title}>
+    <div
+      style={{
+        backgroundImage: `url(${src})`,
+      }}
+    />
+  </i>
+)

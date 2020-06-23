@@ -1,4 +1,5 @@
 @import "../../styles/colors";
+@import "../../styles/mixin";
 
 .card {
   border-bottom-color: $gainsboro;
@@ -89,5 +90,38 @@
         top: 0.3rem;
       }
     }
+  }
+}
+
+.technology-card {
+  height: 100px;
+  width: 100px;
+
+  @include md {
+    height: 137.15px;
+    width: 137.15px;
+  }
+
+  div {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: invert(1);
+    height: 70px;
+    margin: 0px auto;
+    opacity: 0.7;
+    position: relative;
+    top: 25px;
+    width: 70px;
+
+    @include md {
+      height: 87.15px;
+      width: 87.15px;
+    }
+  }
+
+  @include md {
+    height: 137.15px;
+    width: 137.15px;
   }
 }
