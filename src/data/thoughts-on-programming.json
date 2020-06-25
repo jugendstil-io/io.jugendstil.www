@@ -1,5 +1,17 @@
 [
   {
+    "author": "Christopher Thompson",
+    "createdAt": "24 Jun 2020 00:00:00 UTC",
+    "description": [
+      "Usually, it doesn't take a lot to get short scripts and functions up and running. However, as your code-base becomes larger and more complex errors will creep in inevitably. It has even been mathematically proven that any code beyond a certain level of complexity includes at least one bug and probably quite more than that.",
+      "So long story short, one should always apply appropriate testing strategies to mitigate risk, BUT sometimes this #ThoughtOnProgramming given by Christopher Thompson might help as well \uD83D\uDE43.",
+      "#StayInBed #WriteTestsFirst #SaveLifes"
+    ],
+    "id": "7f330bf7-47c7-4a63-8898-92e129ad3dec",
+    "published": true,
+    "quote": "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code."
+  },
+  {
     "author": "Reid Hoffman",
     "createdAt": "24 Jun 2020 00:00:00 UTC",
     "description": [
