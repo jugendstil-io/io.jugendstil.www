@@ -1,7 +1,18 @@
 [
   {
+    "author": "Cory House",
+    "createdAt": "26 Jun 2020 00:00:00 UTC",
+    "description": [
+      "Code for humans, not machines! We just can't overemphasis enough the importance of writing clean, comprehensive and maintainable code. Today's #ThoughtsOnProgramming features Cory House with a superb analogy on why your code should tell a story and be self-explanatory.",
+      "Happy Friday \uD83C\uDF89\n"
+    ],
+    "id": "9dfa502e-4775-455f-9cae-85f70e2799b2",
+    "published": true,
+    "quote": "Code is like humor. When you have to explain it, it’s bad."
+  },
+  {
     "author": "Christopher Thompson",
-    "createdAt": "24 Jun 2020 00:00:00 UTC",
+    "createdAt": "25 Jun 2020 00:00:00 UTC",
     "description": [
       "Usually, it doesn't take a lot to get short scripts and functions up and running. However, as your code-base becomes larger and more complex errors will creep in inevitably. It has even been mathematically proven that any code beyond a certain level of complexity includes at least one bug and probably quite more than that.",
       "So long story short, one should always apply appropriate testing strategies to mitigate risk, BUT sometimes this #ThoughtOnProgramming given by Christopher Thompson might help as well \uD83D\uDE43.",
