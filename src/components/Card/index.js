@@ -28,10 +28,15 @@ export const ContactCard = contact => (
   </div>
 )
 
-export const ServiceCard = ({ title, url, teaser }) => (
+export const ServiceCard = ({ enumeration, teaser, title, url }) => (
   <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4" key={kebabCase(title)}>
     <div className="box-row">
       <div className="card">
+        {enumeration && (
+          <div className="card-enumeration">
+            <span className="font-black">{enumeration}</span>
+          </div>
+        )}
         <div className="card-content">
           <div className="card-header">
             <h3 className="card-title">{title}</h3>

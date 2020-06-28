@@ -10,6 +10,9 @@
 }
 
 $fontBlack: "J_ Black", "Arial Black", "Sans-Serif";
+.font-black {
+  font-family: $fontBlack;
+}
 
 @font-face {
   font-family: 'J_ Medium';
@@ -23,6 +26,9 @@ $fontBlack: "J_ Black", "Arial Black", "Sans-Serif";
 }
 
 $fontMedium: "J_ Medium", "Arial Black", "Sans-Serif";
+.font-medium {
+  font-family: $fontMedium;
+}
 
 @font-face {
   font-family: 'J_ Regular';
@@ -35,4 +41,7 @@ $fontMedium: "J_ Medium", "Arial Black", "Sans-Serif";
   url('../fonts/j_/J_regular.svg#svgFontName') format("svg");
 }
 
-$fontRegular: "J_ Regular", "Arial", "Sans-Serif"
+$fontRegular: "J_ Regular", "Arial", "Sans-Serif";
+.font-regular {
+  font-family: $fontRegular;
+}

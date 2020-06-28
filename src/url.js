@@ -6,6 +6,7 @@ const URL = {
   PRIVACY_STATEMENT: "/privacy-statement",
   SERVICE: {
     CUSTOMER_EXPERIENCE: "/service/customer-experience",
+    DEVOPS: "/service/devops",
     ENTERPRISE_SOFTWARE_DEVELOPMENT: "/service/software-engineering",
     INDEX: "/#services",
   },

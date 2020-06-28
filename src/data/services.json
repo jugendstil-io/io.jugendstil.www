@@ -64,7 +64,35 @@
   {
     "active": true,
     "title": "DevOps Culture, Process and Platform",
-    "teaser": "Our DevOps process helps you automate and optimise your IT operations and to build, test, deploy and monitor applications with speed, quality and control."
+    "teaser": "DevOps as a Service by Jugendstil_IO helps you automate and optimise your IT operations and to build, test, deploy and monitor applications with speed, quality and control.",
+    "url": "/service/devops",
+    "capabilities": [],
+    "methodology": [
+      {
+        "title": "Automation strategy",
+        "teaser": "We commence by evaluating your current IT capabilities, producing a business case, application lifecycle maturity audit and a DevOps roadmap to meet your business goals."
+      },
+      {
+        "title": "Technology selection",
+        "teaser": "Our specialists assist you to recognise and select the various types of automation and cloud-native technologies required to achieve your  DevOps strategy and roadmap."
+      },
+      {
+        "title": "Development & testing",
+        "teaser": "We design your actual processes and workloads to run in the advanced DevOps and cloud tools you've chosen, seamlessly and securely."
+      },
+      {
+        "title": "Operational visibility",
+        "teaser": "We develop and build automated monitoring and reporting solutions for performance measurement and operational visibility to determine the success of your DevOps transformation journey."
+      },
+      {
+        "title": "Operations management",
+        "teaser": "Once your DevOps implementation finishes, our specialists can optionally become an extension of your organisation, assisting in handling your IT operations, increasing delivery, security and productivity."
+      },
+      {
+        "title": "Continuous transformation",
+        "teaser": "With our vast array of automation, cloud and data expertise, we continue to be your integrated partner for all technology-related questions, supporting you with later transformations to stay ahead of your competition."
+      }
+    ]
   },
   {
     "active": true,
