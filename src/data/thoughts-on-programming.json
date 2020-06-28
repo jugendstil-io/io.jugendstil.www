@@ -1,5 +1,15 @@
 [
   {
+    "author": "Jessica Gaston",
+    "createdAt": "28 Jun 2020 00:00:00 UTC",
+    "description": [
+      "Here at Jugendstil_IO, we're strong advocates of test-driven development and continuous delivery. Not only will an appropriate software testing strategy improve the quality of your product, enhance overall customer satisfaction and save you hard dollars, but it is at the same time one of the fundamental building blocks for your <a href=\"/service/devops/\">DevOps</a> journey."
+    ],
+    "id": "b5d177d6-464b-4b04-987e-fadb576aa054",
+    "published": true,
+    "quote": "One man's crappy software is another man's full time job."
+  },
+  {
     "author": "Cory House",
     "createdAt": "26 Jun 2020 00:00:00 UTC",
     "description": [
