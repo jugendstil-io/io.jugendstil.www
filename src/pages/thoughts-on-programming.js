@@ -42,7 +42,7 @@ const ThoughtsOnProgrammingPage = ({ data }) => {
       }
     })
     .filter(it => it.published)
-    .sort((a, b) => b.date - a.date)
+    .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
 
   return (
     <Layout className="thoughts-on-programming-index-page">

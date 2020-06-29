@@ -12,7 +12,7 @@ exports.createPages = ({ actions }) => {
 
   thoughtsOnProgramming
     .filter(it => it.published)
-    .sort((a, b) => b.date - a.date)
+    .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
     .forEach((thought, index, thoughts) => {
       const path = `/thoughts-on-programming/${thought.id}/`
 
