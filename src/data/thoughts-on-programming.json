@@ -1,5 +1,16 @@
 [
   {
+    "author": "Paul Graham",
+    "createdAt": "01 Jul 2020 00:00:00 UTC",
+    "description": [
+      "Sometimes when we start working on a new service or product, we fall in love with the idea and jump straight into developing a solution.",
+      "Today's issue of #ThoughtsOnProgramming features \"<a target=\"_blank\" rel=\"nofollow\" href=\"https://www.ycombinator.com/\">Y Combinator</a>'s co-founder Paul Graham with a piece of advice from his essay \"<a target=\"_blank\" rel=\"nofollow\" href=\"http://paulgraham.com/gh.html\">\"Great Hackers\"</a> that we should spend more time choosing the right problem to solve before jumping into implementation."
+    ],
+    "id": "0154082e-262d-4e8d-8827-69bbfa10bbed",
+    "published": true,
+    "quote": "In programming, as in many fields, the hard part isn't solving problems, but deciding what problems to solve."
+  },
+  {
     "author": "Jessica Gaston",
     "createdAt": "28 Jun 2020 00:00:00 UTC",
     "description": [
