@@ -1,5 +1,16 @@
 [
   {
+    "author": "Edsger W. Dijkstra",
+    "createdAt": "28 Jul 2020 00:00:00 UTC",
+    "description": [
+      "Simplicity in code is not a contribution to the future! We don't do it because we're assuming a future opportunity for code-reuse, or because we want it to look prettier at a code review, or because we want to make it simpler to modify.",
+      "Without simplicity, we never produce reliable code that one can trust to run a business on. Good code does not mean, it is the shortest, the fastest and definitely not the cleverest one. It is code which can be trusted."
+    ],
+    "id": "a3b360dd-9a86-4271-b12a-ad16c9907113",
+    "published": true,
+    "quote": "If we wish to count lines of code, we should not regard them as \"lines produced\" but as \"lines spent\"."
+  },
+  {
     "author": "Paul Graham",
     "createdAt": "01 Jul 2020 00:00:00 UTC",
     "description": [
