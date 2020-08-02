@@ -4,11 +4,36 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 const path = require(`path`)
+const jobs = require("./src/data/jobs.json")
 const thoughtsOnProgramming = require("./src/data/thoughts-on-programming.json")
+
+const template = {
+  jobs: path.resolve(`src/templates/job-posting.js`),
+  thoughtsOnProgramming: path.resolve(
+    `src/templates/thoughts-on-programming-post.js`
+  ),
+}
 
 exports.createPages = ({ actions }) => {
   const { createPage } = actions
-  const template = path.resolve(`src/templates/thoughts-on-programming-post.js`)
+
+  jobs
+    .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
+    .forEach(job => {
+      const path = `/jobs/${job.id}/`
+
+      createPage({
+        path,
+        component: template.jobs,
+        context: {
+          name: job.id,
+          current: {
+            path,
+            job,
+          },
+        },
+      })
+    })
 
   thoughtsOnProgramming
     .filter(it => it.published)
@@ -32,7 +57,7 @@ exports.createPages = ({ actions }) => {
 
       createPage({
         path,
-        component: template,
+        component: template.thoughtsOnProgramming,
         context: {
           name: thought.id,
           current: {

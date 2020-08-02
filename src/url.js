@@ -1,5 +1,9 @@
 const URL = {
   ABOUT_US: "/#about-us",
+  CAREER: {
+    CV_DROP:
+      "https://docs.google.com/forms/d/e/1FAIpQLSfI-7IQTJI7McwkvLZZGp4HHWrFmbeXPW9A-bhCN2Nb3As1JQ/viewform",
+  },
   CONTACT: "/contact",
   HOME: "/",
   MODERN_SLAVERY_STATEMENT: "/modern-slavery-statement",

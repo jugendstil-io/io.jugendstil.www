@@ -3,8 +3,8 @@ import React from "react"
 
 import "./index.scss"
 
-const Button = ({ url, label }) => (
-  <a className="btn btn-primary" href={url}>
+const Button = ({ url, label, style }) => (
+  <a className="btn btn-primary" href={url} style={style}>
     <span className="label">{label}</span>
   </a>
 )

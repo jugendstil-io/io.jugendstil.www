@@ -4,6 +4,7 @@ import Hero from "../components/Hero"
 import { ServiceCard } from "../components/Card"
 import Metadata from "../components/metadata"
 import services from "../data/services.json"
+import about from "../data/about.json"
 import pkg from "../../package.json"
 
 import URL from "../url"
@@ -21,9 +22,7 @@ const IndexPage = () => (
       }}
       content={{
         title: "About us",
-        description: [
-          "Jugendstil_IO helps businesses master the digital reinvention of the industry when they use advanced digital technologies to transform core operations and unlock new revenue streams and business models. We support every aspect of our clients' multi-phase transformation,including workforce, customer experience, Research and development, engineering, business support, and ecosystems.",
-        ],
+        description: [about.description],
       }}
       teaser="We empower organisations to create business impact and seamless digital experiences through technology."
       title="#CREATINGIMPACT"

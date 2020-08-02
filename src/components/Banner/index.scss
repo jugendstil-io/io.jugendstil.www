@@ -1,0 +1,33 @@
+@import "../../styles/mixin";
+
+.banner {
+  height: 90px;
+  overflow: hidden;
+  position: relative;
+
+  @include sm {
+    height: 120px;
+  }
+
+  @include lg {
+    height: 160px;
+  }
+
+  img {
+    height: 295px;
+    left: 0;
+    position: absolute;
+    top: -70px;
+    width: 100%;
+
+    @include sm {
+      height: 395px;
+      top: -95px;
+    }
+
+    @include lg {
+      height: 495px;
+      top: -115px;
+    }
+  }
+}

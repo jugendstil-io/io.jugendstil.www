@@ -1,0 +1,22 @@
+@import "../styles/breadcrumb";
+@import "../styles/colors";
+
+$page-id: job-posting-page;
+
+.#{$page-id} {
+  .job-title {
+    small {
+      font-size: 50%;
+      color: $darkgray;
+    }
+
+    border-bottom: 1px solid $gainsboro;
+  }
+
+  .job-description {
+
+    ul {
+      list-style: circle;
+    }
+  }
+}
