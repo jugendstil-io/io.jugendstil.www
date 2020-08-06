@@ -1,5 +1,15 @@
 [
   {
+    "author": "Jon Postel",
+    "createdAt": "06 Aug 2020 00:00:00 UTC",
+    "description": [
+      "Today's #ThoughtsOnProgramming features US American computer scientist Jon Postel who is best known for his contributions as editor of the RFC document series and the Simple Mail Transfer Protocol (SMTP)."
+    ],
+    "id": "afba0c5e-02aa-40b0-b08a-0e0f70925a81",
+    "published": true,
+    "quote": "If we wish to count lines of code, we should not regard them as \"lines produced\" but as \"lines spent\"."
+  },
+  {
     "author": "Edsger W. Dijkstra",
     "createdAt": "28 Jul 2020 00:00:00 UTC",
     "description": [
