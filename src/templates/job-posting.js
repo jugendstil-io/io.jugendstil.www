@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/layout"
 import Metadata from "../components/metadata"
 import cover from "../images/cover.jpeg"
-import URL from "../url"
 
 import "./job-posting.scss"
 import Banner from "../components/Banner"
@@ -33,9 +32,9 @@ const JobPosting = ({ pageContext }) => {
               <br /> <small>{job.location}</small>
             </h1>
             <Button.Primary
-              label="Apply"
+              label="Apply on Indeed"
               style={{ marginBottom: "2rem" }}
-              url={URL.CAREER.CV_DROP}
+              url={job.applyUrl}
             />
             <p>{about.description}</p>
             <div
