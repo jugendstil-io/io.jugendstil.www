@@ -1,5 +1,17 @@
 [
   {
+    "author": "Dennis Ritchie",
+    "createdAt": "09 Sep 2020 00:00:00 UTC",
+    "description": [
+      "Today's #ThoughtsOnProgramming features American computer scientist and C programming language inventor Dennis Ritchie who designed and developed together with Ken Thompson the first version of the UNIX operating system.",
+      "Without his contributions, computers and the internet, we know it today would not have been possible - Mr Ritchie would have turned 79 today.",
+      "Thank you \uD83D\uDE4F"
+    ],
+    "id": "a8b02b68-56e0-4242-a0f4-7894cd4685ff",
+    "published": true,
+    "quote": "UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity."
+  },
+  {
     "author": "Jon Postel",
     "createdAt": "06 Aug 2020 00:00:00 UTC",
     "description": [
