@@ -1,5 +1,18 @@
 [
   {
+    "author": "Eric Ries",
+    "createdAt": "22 Sep 2020 00:00:00 UTC",
+    "description": [
+      "... it's the same old story over and over again. A team comes up with an idea and spends several months with building a minimum viable product (MVP) and discussing which features should go in or are being kept in the backlog for the full, mature, stable product.",
+      "<strong>Can you see the problem in this picture? Why do so many start-ups fail?</strong>",
+      "An MVP is not just the final product with half the features in order to get it out the door just quicker. The MVP doesn't have to be a product at all, and it's not something you build only once, and then consider it done. It's instead an iterative process which allows you to identify your riskiest hypothesis, find the smallest possible experiment to test that hypothesis and leverage the results to correct the course of your journey.",
+      "Tackling problems that are interesting to solve rather than the ones which serve a market need is the number one reason for failure (noted in 42% of cases according to CB Insight failure post-mortem analysis)."
+    ],
+    "id": "e619d417-48d7-41ae-973e-cac620ef8c58",
+    "published": true,
+    "quote": "We must learn what customers really want, not what they say they want or what we think they should want."
+  },
+  {
     "author": "Dennis Ritchie",
     "createdAt": "09 Sep 2020 00:00:00 UTC",
     "description": [
