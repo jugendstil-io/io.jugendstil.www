@@ -12,6 +12,19 @@ const stripHtml = string => string.replace(/<[^>]*>?/gm, "")
 
 const JobPosting = ({ pageContext }) => {
   const job = pageContext.current.job
+  const applyButton = job.applyUrl ? (
+    <Button.Primary
+      label="Apply on Indeed"
+      style={{ marginBottom: "2rem" }}
+      url={job.applyUrl}
+    />
+  ) : (
+    <Button.Primary
+      label={job.contact}
+      style={{ marginBottom: "2rem" }}
+      url={`mailto:${job.contact}`}
+    />
+  )
 
   return (
     <Layout className="job-posting-page">
@@ -31,11 +44,7 @@ const JobPosting = ({ pageContext }) => {
               {job.title}
               <br /> <small>{job.location}</small>
             </h1>
-            <Button.Primary
-              label="Apply on Indeed"
-              style={{ marginBottom: "2rem" }}
-              url={job.applyUrl}
-            />
+            {applyButton}
             <p>{about.description}</p>
             <div
               className="job-description"
