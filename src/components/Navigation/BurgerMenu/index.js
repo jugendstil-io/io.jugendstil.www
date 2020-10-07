@@ -64,6 +64,9 @@ export default class BurgerMenu extends React.Component {
                 <a onClick={this.toggle} href={URL.CONTACT}>
                   Contact
                 </a>
+                <a onClick={this.toggle} href={URL.JOBS}>
+                  Jobs
+                </a>
               </div>
             </React.Fragment>
           )}

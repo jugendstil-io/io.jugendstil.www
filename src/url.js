@@ -6,6 +6,7 @@ const URL = {
   },
   CONTACT: "/contact",
   HOME: "/",
+  JOBS: "/jobs",
   MODERN_SLAVERY_STATEMENT: "/modern-slavery-statement",
   PRIVACY_STATEMENT: "/privacy-statement",
   SERVICE: {

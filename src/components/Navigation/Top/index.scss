@@ -14,6 +14,17 @@
     li.menu-link-item {
       display: inline;
 
+      .dot {
+        background-color: $violet;
+        border-radius: 100px;
+        color: $white;
+        font-size: 9px;
+        left: 5px;
+        padding: 3.5px 5px;
+        position: relative;
+        top: -8px;
+      }
+
       a {
         &:hover {
           border-bottom: 0.2rem solid;

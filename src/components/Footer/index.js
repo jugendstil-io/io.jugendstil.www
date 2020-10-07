@@ -15,6 +15,7 @@ const links = [
   { url: URL.ABOUT_US, name: "About Us" },
   { url: URL.THOUGHTS_ON_PROGRAMMING, name: "Thoughts" },
   { url: URL.CONTACT, name: "Contact" },
+  { url: URL.JOBS, name: "Jobs" },
 ]
 
 const Footer = () => (
