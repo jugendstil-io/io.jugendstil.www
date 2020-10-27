@@ -1,5 +1,19 @@
 [
   {
+    "author": "Edward V. Berard",
+    "createdAt": "28 Oct 2020 00:00:00 UTC",
+    "description": [
+      "<strong>A friendly reminder on Agile Principle #2</strong>",
+      "We aren't perfect; We cannot predict the future; and, No matter how much we try, we can't think of everything.</li></ul>",
+      "The truth is, we don't know for 100% what our customers' needs are or the best way to fill their needs. Not only do we not know exactly what they need today, but we also don't know what they will need by the time we are done developing a solution, because our customers and the markets they are operating in are constantly changing.",
+      "Therefore, inevitably there will always be requests for changes (even late in the project), and our choices are to either make the change or live with the consequences of not changing (lower revenues, lower quality, lower profits, a bad reputation in the market etc.).",
+      "It's simple; software specifications keep moving as the world keeps moving. Stop fighting them and design your product development pipeline in a way so that it <strong>embraces changing requirements</strong>!"
+    ],
+    "id": "d424f751-3985-443c-b85a-195a1d9fc79c",
+    "published": true,
+    "quote": "Walking on water and developing software from a specification are easy if both are frozen."
+  },
+  {
     "author": "Antoine de Saint-Exupéry",
     "createdAt": "15 Oct 2020 00:00:00 UTC",
     "description": [
