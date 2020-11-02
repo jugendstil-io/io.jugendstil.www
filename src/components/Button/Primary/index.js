@@ -41,7 +41,7 @@ const Button = ({ url, label, style }) => {
       <a
         className={className}
         href={url}
-        rel="noreferrer"
+        rel="noopener noreferrer"
         style={style}
         target="_blank"
       >

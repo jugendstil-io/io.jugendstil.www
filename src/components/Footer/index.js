@@ -33,28 +33,28 @@ const Footer = () => (
               <li>
                 <a
                   href={contact.find(it => it.hq === true).linkedin}
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <LinkedIn height={style.iconHeight} width={style.iconWidth} />
                 </a>
                 <a
                   href={contact.find(it => it.hq === true).twitter}
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Twitter height={style.iconHeight} width={style.iconWidth} />
                 </a>
                 <a
                   href={contact.find(it => it.hq === true).github}
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <GitHub height={style.iconHeight} width={style.iconWidth} />
                 </a>
                 <a
                   href={contact.find(it => it.hq === true).instagram}
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <Instagram

@@ -63,7 +63,7 @@ const ThoughtsOnProgrammingPage = ({ data }) => {
               development and lean thinking in general. Follow us on{" "}
               <a
                 href="https://www.instagram.com/jugendstil_io/"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 Instagram
@@ -71,7 +71,7 @@ const ThoughtsOnProgrammingPage = ({ data }) => {
               ,{" "}
               <a
                 href="https://twitter.com/jugendstil_io/"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 Twitter
@@ -79,7 +79,7 @@ const ThoughtsOnProgrammingPage = ({ data }) => {
               or{" "}
               <a
                 href="https://www.linkedin.com/company/jugendstil-io/"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 LinkedIn
