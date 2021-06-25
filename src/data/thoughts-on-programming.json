@@ -1,5 +1,22 @@
 [
   {
+    "author": "Bill Gates",
+    "createdAt": "25 Jun 2022 00:00:00 UTC",
+    "description": [
+      "Retaining customers is cheaper than acquiring new ones. Attract a new customer can cost up to five times more than keeping an existing customer.",
+      "One key factor for keeping your customers happy is being prepared what they have to say and is having well-developed complaint management process in place to respond to complaints in a structured manner.",
+      "Here at Jugendstil_IO, we believe in:",
+      "• Be open to criticism and discussing problems with your customers.",
+      "• Learn to listen and understand why your customers might be frustrated.",
+      "• Show genuine care and attention!",
+      "• Acknowledge the problem and apologise.",
+      "• To learn and to constantly optimise your processes and attitude towards customer happiness do post mortems and think about what went wrong."
+    ],
+    "id": "aa2a2a01-747d-44d8-b6f5-9aeda6978ad4",
+    "published": true,
+    "quote": "Your most unhappy customers are your greatest source of learning."
+  },
+  {
     "author": "Karen Spärck Jones",
     "createdAt": "8 Mar 2021 00:00:00 UTC",
     "description": [
