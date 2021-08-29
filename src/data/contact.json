@@ -1,5 +1,6 @@
 [
   {
+    "active": true,
     "address": {
       "city": "London",
       "country": "GB",
@@ -15,6 +16,7 @@
     "twitter": "https://twitter.com/jugendstil_io/"
   },
   {
+    "active": true,
     "address": {
       "city": "Barcelona",
       "country": "ES",
@@ -26,6 +28,19 @@
     "telephone": "+44 20 3818 5838"
   },
   {
+    "active": true,
+    "address": {
+      "city": "Andorra la Vella",
+      "country": "AD",
+      "line01": "Bonaventura Armengol, 15",
+      "zipCode": "AD500"
+    },
+    "email": "hola@jugendstil.io",
+    "hq": false,
+    "telephone": "+44 20 3818 5838"
+  },
+  {
+    "active": false,
     "address": {
       "city": "Berlin",
       "country": "DE",

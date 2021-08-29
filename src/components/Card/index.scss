@@ -48,6 +48,10 @@
     &.map-london {
       background-image: url("/map/london.png");
     }
+
+    &.map-andorra-la-vella {
+      background-image: url("/map/andorra-la-vella.png");
+    }
   }
 
   .card-enumeration {
@@ -77,7 +81,7 @@
     .card-title {
       font-size: 1.3625rem;
       line-height: 1.4em;
-      padding-right: 3.45rem;
+      padding-right: 1.3rem;
     }
 
     .card-arrow {

@@ -22,7 +22,11 @@ export const ContactCard = contact => (
             </address>
           </p>
         </div>
-        <div className={`card-map map-${contact.address.city.toLowerCase()}`} />
+        <div
+          className={`card-map map-${contact.address.city
+            .toLowerCase()
+            .replace(/ /g, "-")}`}
+        />
       </div>
     </div>
   </div>

@@ -44,7 +44,9 @@ const Contact = () => (
           <p>Where to find us.</p>
         </div>
       </div>
-      <div className="row">{contact.map(ContactCard)}</div>
+      <div className="row">
+        {contact.filter(it => it.active).map(ContactCard)}
+      </div>
     </section>
   </Layout>
 )
