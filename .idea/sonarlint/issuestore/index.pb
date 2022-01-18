@@ -72,8 +72,6 @@ U
 :
 
 src/url.js,d/c/dceda2dba1878087faff88a064c6e168819a8577
-N
-src/components/Card/index.scss,4/f/4fe829746d5880331c7e392d935585e0353aad0e
 L
 src/components/Card/index.js,f/2/f242548f6db9da5c97b04b7253982dab28fab33b
 :
@@ -85,8 +83,6 @@ T
 $src/pages/thoughts-on-programming.js,0/7/07809cfa52b02855e4ff79f2f82ee2d636045cd3
 V
 &src/pages/thoughts-on-programming.scss,c/1/c1951e1f686b5d736dcaa50e5f830ac23f191de0
-F
-src/data/services.json,4/f/4ff17be0a7a783a9f1c2510a4f081661e70de355
 E
 src/data/contact.json,5/f/5f80825fedb4fb4fae733afa64d30c10855fdcbe
 U
