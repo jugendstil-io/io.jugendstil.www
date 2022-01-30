@@ -3,8 +3,6 @@
 static/CNAME,a/5/a59b95a3c10abec9f392cff5948d4851ea9acd34
 7
 LICENSE,0/3/0398ccd0f49298b10a3d76a47800d2ebecd49859
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 <
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 B
@@ -15,8 +13,6 @@ V
 &src/components/Navigation/Top/index.js,5/f/5fae53e187c811df1a4406f695a3f3b3917f4758
 H
 src/components/header.js,0/c/0c051dedc4e0bbd1604c4eff9143e048b5b56fcc
-D
-src/pages/contact.js,0/1/010b799ed818e303413502f33b2bec18dd0e7eee
 @
 gatsby-config.js,4/f/4f261c6e46142df5e9a7303296b3fca674d719a9
 >
@@ -72,8 +68,6 @@ U
 :
 
 src/url.js,d/c/dceda2dba1878087faff88a064c6e168819a8577
-L
-src/components/Card/index.js,f/2/f242548f6db9da5c97b04b7253982dab28fab33b
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
@@ -121,3 +115,13 @@ C
 src/data/about.json,f/0/f0cbdcbf43ead4d1c0d749aed02d0dbd57d24fc2
 L
 src/templates/job-posting.js,f/1/f114138f233dcb9663fa5b9667e1cfff53d0ab00
+F
+src/data/services.json,4/f/4ff17be0a7a783a9f1c2510a4f081661e70de355
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+N
+src/components/Card/index.scss,4/f/4fe829746d5880331c7e392d935585e0353aad0e
+D
+src/pages/contact.js,0/1/010b799ed818e303413502f33b2bec18dd0e7eee
+L
+src/components/Card/index.js,f/2/f242548f6db9da5c97b04b7253982dab28fab33b

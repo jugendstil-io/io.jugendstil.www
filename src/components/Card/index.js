@@ -9,9 +9,7 @@ export const ContactCard = contact => (
       <div className="card">
         <div className="card-content">
           <div className="card-header">
-            <h3 className="card-title">
-              {contact.address.city}, {contact.address.country}
-            </h3>
+            <h3 className="card-title">{contact.address.city}</h3>
           </div>
           <p className="card-description">
             <span>{contact.email}</span>
