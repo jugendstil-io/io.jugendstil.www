@@ -77,8 +77,6 @@ T
 $src/pages/thoughts-on-programming.js,0/7/07809cfa52b02855e4ff79f2f82ee2d636045cd3
 V
 &src/pages/thoughts-on-programming.scss,c/1/c1951e1f686b5d736dcaa50e5f830ac23f191de0
-E
-src/data/contact.json,5/f/5f80825fedb4fb4fae733afa64d30c10855fdcbe
 U
 %src/data/thoughts-on-programming.json,3/3/33183674f24bf0632cbed5456d0c6bf657212c66
 _
@@ -115,12 +113,8 @@ C
 src/data/about.json,f/0/f0cbdcbf43ead4d1c0d749aed02d0dbd57d24fc2
 L
 src/templates/job-posting.js,f/1/f114138f233dcb9663fa5b9667e1cfff53d0ab00
-F
-src/data/services.json,4/f/4ff17be0a7a783a9f1c2510a4f081661e70de355
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-N
-src/components/Card/index.scss,4/f/4fe829746d5880331c7e392d935585e0353aad0e
 D
 src/pages/contact.js,0/1/010b799ed818e303413502f33b2bec18dd0e7eee
 L

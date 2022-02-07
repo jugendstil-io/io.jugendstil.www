@@ -2,22 +2,6 @@
   {
     "active": true,
     "address": {
-      "city": "London",
-      "country": "GB",
-      "line01": "20-22 Wenlock Road",
-      "zipCode": "N1 7GU"
-    },
-    "email": "hello@jugendstil.io",
-    "github": "https://github.com/jugendstil-io",
-    "hq": true,
-    "instagram": "https://www.instagram.com/jugendstil_io/",
-    "linkedin": "https://www.linkedin.com/company/jugendstil-io/",
-    "telephone": "+44 20 3818 5838",
-    "twitter": "https://twitter.com/jugendstil_io/"
-  },
-  {
-    "active": true,
-    "address": {
       "city": "Barcelona",
       "country": "ES",
       "line01": "Carrer de Joan Blanques, 66",
@@ -25,19 +9,39 @@
     },
     "email": "hola@jugendstil.io",
     "hq": false,
-    "telephone": "+44 20 3818 5838"
+    "telephone": "+376 625 030"
   },
   {
     "active": true,
     "address": {
-      "city": "Andorra la Vella",
+      "city": "Canillo",
       "country": "AD",
-      "line01": "Bonaventura Armengol, 15",
-      "zipCode": "AD500"
+      "line01": "CG2/ Tram Aldosa, Número 60",
+      "zipCode": "AD100"
     },
     "email": "hola@jugendstil.io",
+    "github": "https://github.com/jugendstil-io",
+    "hq": true,
+    "instagram": "https://www.instagram.com/jugendstil_io/",
+    "linkedin": "https://www.linkedin.com/company/jugendstil-io/",
+    "telephone": "+376 625 030",
+    "twitter": "https://twitter.com/jugendstil_io/"
+  },
+  {
+    "active": true,
+    "address": {
+      "city": "London",
+      "country": "GB",
+      "line01": "20-22 Wenlock Road",
+      "zipCode": "N1 7GU"
+    },
+    "email": "hello@jugendstil.io",
+    "github": "https://github.com/jugendstil-io",
     "hq": false,
-    "telephone": "+44 20 3818 5838"
+    "instagram": "https://www.instagram.com/jugendstil_io/",
+    "linkedin": "https://www.linkedin.com/company/jugendstil-io/",
+    "telephone": "+44 20 3818 5838",
+    "twitter": "https://twitter.com/jugendstil_io/"
   },
   {
     "active": false,
@@ -49,6 +53,6 @@
     },
     "email": "hallo@jugendstil.io",
     "hq": false,
-    "telephone": "+44 20 3818 5838"
+    "telephone": "+376 625 030"
   }
 ]
