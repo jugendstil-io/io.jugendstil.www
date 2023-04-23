@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Mathias Schilling <mschilling@jugendstil.io>",
   "dependencies": {
-    "gatsby": "^2.17.6",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.2.30",
     "gatsby-plugin-drift": "^1.0.0",
     "gatsby-plugin-google-analytics": "^2.3.2",
